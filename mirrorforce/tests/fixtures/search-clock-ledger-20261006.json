@@ -1,0 +1,378 @@
+{
+  "schema": "original-prompt-before-clock-ledger/v1",
+  "source_report_sha256": "b6338a5e26bfda5aac532919c7cbfd2d5acc88109fac44065cb533a8b8323b7a",
+  "training_eligible": false,
+  "strength_evaluation": false,
+  "config": {
+    "enabled": true,
+    "entropy_threshold": 0.6,
+    "finalize_seconds": 3,
+    "lethal_seconds": 12,
+    "low_lp_threshold": 3000,
+    "margin_threshold": 0.2,
+    "turn_seconds": 30,
+    "uncertain_seconds": 8
+  },
+  "roots": [
+    {
+      "turn": 1,
+      "viewer": 0,
+      "public_budget": {
+        "allocated_seconds": 8.999649287958164,
+        "clock_elapsed": 0.0003128930111415684,
+        "clock_left": 450,
+        "clock_reserve": 30,
+        "clock_share": 0.1,
+        "finalize_seconds": 3,
+        "prompt_elapsed": 0.00035071204183623195,
+        "response_margin": 3,
+        "response_seconds": 11.999649287958164,
+        "room_seconds": 450,
+        "total_cap_seconds": 12
+      },
+      "on_demand": {
+        "decisions": [
+          {
+            "at": 468060.962733034,
+            "gate": {
+              "confidence": {
+                "normalized_entropy": 0.4239319418628341,
+                "raw_greedy_index": 6,
+                "rows": 8,
+                "top_probability": 0.4997556980155523,
+                "top_two_margin": 0.05872284246782494
+              },
+              "lethal_candidate": false,
+              "reason": "uncertain",
+              "response_deadline": 468068.561309793,
+              "search": true,
+              "search_deadline": 468065.561309793,
+              "spent_this_turn": 0.4014232410117984,
+              "trigger": "uncertain"
+            },
+            "obs_sha256": "ff9f3e18c153d6ea3b71a8195b25ef1a2b345be825fb9d9a737b52ed04431568",
+            "optional_seconds": 4.793403483985458
+          }
+        ],
+        "finish": {
+          "cleanup_complete": true,
+          "delivered": true,
+          "finished": 468065.803580378,
+          "law": "mirrorforce_on_demand_search_gate/v1",
+          "over_admitted_prompt_cap": false,
+          "over_response_deadline": false,
+          "over_turn_cap": false,
+          "prompt_seconds": 5.242270585033111,
+          "started": 468060.561309793,
+          "turn": 1,
+          "turn_work_seconds": 5.242270585033111
+        },
+        "non_search_seconds": 0.4488671010476537,
+        "optional_seconds": 4.793403483985458,
+        "public": {
+          "law": "public-combat-potential-trigger-not-proof/v1",
+          "legal_actions": [
+            [
+              4,
+              0,
+              26077387
+            ],
+            [
+              4,
+              0,
+              97268402
+            ],
+            [
+              5,
+              0,
+              26077387
+            ],
+            [
+              5,
+              0,
+              97268402
+            ],
+            [
+              1,
+              0,
+              98338152
+            ],
+            [
+              1,
+              0,
+              84749824
+            ],
+            [
+              1,
+              0,
+              25955749
+            ],
+            [
+              0,
+              3,
+              0
+            ]
+          ],
+          "opponent_lp": 8000,
+          "phase": 4,
+          "turn_player": 0,
+          "viewer": 0,
+          "visible_monsters": []
+        },
+        "public_response_deadline": 468072.561309793,
+        "public_search_deadline": 468069.561309793,
+        "started": 468060.561309793,
+        "successful_send_ns": 468065757267455
+      },
+      "searches": [
+        {
+          "gate_decision": {
+            "confidence": {
+              "normalized_entropy": 0.4239319418628341,
+              "raw_greedy_index": 6,
+              "rows": 8,
+              "top_probability": 0.4997556980155523,
+              "top_two_margin": 0.05872284246782494
+            },
+            "lethal_candidate": false,
+            "reason": "uncertain",
+            "response_deadline": 468068.561309793,
+            "search": true,
+            "search_deadline": 468065.561309793,
+            "spent_this_turn": 0.4014232410117984,
+            "trigger": "uncertain"
+          },
+          "gate_skipped": null
+        }
+      ]
+    },
+    {
+      "turn": 1,
+      "viewer": 0,
+      "public_budget": {
+        "allocated_seconds": 8.989122644998133,
+        "clock_elapsed": 0.00014999398263171315,
+        "clock_left": 446,
+        "clock_reserve": 30,
+        "clock_share": 0.1,
+        "finalize_seconds": 3,
+        "prompt_elapsed": 0.010877355001866817,
+        "response_margin": 3,
+        "response_seconds": 11.989122644998133,
+        "room_seconds": 450,
+        "total_cap_seconds": 12
+      },
+      "on_demand": {
+        "decisions": [
+          {
+            "at": 468066.214228398,
+            "gate": {
+              "confidence": {
+                "normalized_entropy": 0.9898251256365463,
+                "raw_greedy_index": 1,
+                "rows": 5,
+                "top_probability": 0.2541960164348632,
+                "top_two_margin": 0.029868819281753528
+              },
+              "lethal_candidate": false,
+              "reason": "uncertain",
+              "response_deadline": 468073.907182028,
+              "search": true,
+              "search_deadline": 468070.907182028,
+              "spent_this_turn": 5.549316955031827,
+              "trigger": "uncertain"
+            },
+            "obs_sha256": "0eaa035d876e25f5ed9ae9e72620ac4ce6e1fa1100454cd2e7e501b120f4e906",
+            "optional_seconds": 4.924642126017716
+          }
+        ],
+        "finish": {
+          "cleanup_complete": true,
+          "delivered": true,
+          "finished": 468071.184481677,
+          "law": "mirrorforce_on_demand_search_gate/v1",
+          "over_admitted_prompt_cap": false,
+          "over_response_deadline": false,
+          "over_turn_cap": false,
+          "prompt_seconds": 5.277299649023917,
+          "started": 468065.907182028,
+          "turn": 1,
+          "turn_work_seconds": 10.519570234057028
+        },
+        "non_search_seconds": 0.3526575230062008,
+        "optional_seconds": 4.924642126017716,
+        "public": {
+          "law": "public-combat-potential-trigger-not-proof/v1",
+          "legal_actions": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "opponent_lp": 8000,
+          "phase": 4,
+          "turn_player": 0,
+          "viewer": 0,
+          "visible_monsters": []
+        },
+        "public_response_deadline": 468077.907182028,
+        "public_search_deadline": 468074.907182028,
+        "started": 468065.907182028,
+        "successful_send_ns": 468071140071951
+      },
+      "searches": [
+        {
+          "gate_decision": {
+            "confidence": {
+              "normalized_entropy": 0.9898251256365463,
+              "raw_greedy_index": 1,
+              "rows": 5,
+              "top_probability": 0.2541960164348632,
+              "top_two_margin": 0.029868819281753528
+            },
+            "lethal_candidate": false,
+            "reason": "uncertain",
+            "response_deadline": 468073.907182028,
+            "search": true,
+            "search_deadline": 468070.907182028,
+            "spent_this_turn": 5.549316955031827,
+            "trigger": "uncertain"
+          },
+          "gate_skipped": null
+        }
+      ]
+    },
+    {
+      "turn": 1,
+      "viewer": 0,
+      "public_budget": {
+        "allocated_seconds": 8.99983429000713,
+        "clock_elapsed": 0.00014764000661671162,
+        "clock_left": 442,
+        "clock_reserve": 30,
+        "clock_share": 0.1,
+        "finalize_seconds": 3,
+        "prompt_elapsed": 0.00016570999287068844,
+        "response_margin": 3,
+        "response_seconds": 11.99983429000713,
+        "room_seconds": 450,
+        "total_cap_seconds": 12
+      },
+      "on_demand": {
+        "decisions": [],
+        "finish": {
+          "cleanup_complete": true,
+          "delivered": true,
+          "finished": 468071.548661307,
+          "law": "mirrorforce_on_demand_search_gate/v1",
+          "over_admitted_prompt_cap": false,
+          "over_response_deadline": false,
+          "over_turn_cap": false,
+          "prompt_seconds": 0.2627770940307528,
+          "started": 468071.285884213,
+          "turn": 1,
+          "turn_work_seconds": 10.78234732808778
+        },
+        "non_search_seconds": 0.2627770940307528,
+        "optional_seconds": 0,
+        "public": {
+          "law": "public-combat-potential-trigger-not-proof/v1",
+          "legal_actions": [],
+          "opponent_lp": 8000,
+          "phase": 4,
+          "turn_player": 0,
+          "viewer": 0,
+          "visible_monsters": []
+        },
+        "public_response_deadline": 468083.285884213,
+        "public_search_deadline": 468080.285884213,
+        "started": 468071.285884213,
+        "successful_send_ns": 468071519481364
+      },
+      "searches": []
+    }
+  ],
+  "decisions": [
+    {
+      "chosen": 6,
+      "forced": false,
+      "logits": [
+        -5.75,
+        -19.125,
+        -25.875,
+        -27.25,
+        0.03125,
+        -2,
+        0.15625,
+        -28.25
+      ],
+      "msg": 11,
+      "obs_sha256": "ff9f3e18c153d6ea3b71a8195b25ef1a2b345be825fb9d9a737b52ed04431568",
+      "p_chosen": 0.4997556980155524,
+      "response_index": 0,
+      "rows": 8,
+      "subdecision": 0,
+      "turn": 1,
+      "value": -0.07018306851387024,
+      "viewer": 0,
+      "wdl": [
+        0.4648102920943594,
+        0.00019634108518801362,
+        0.5349933668204526
+      ]
+    },
+    {
+      "chosen": 1,
+      "forced": false,
+      "logits": [
+        -7.53125,
+        -7.125,
+        -7.625,
+        -7.375,
+        -7.25
+      ],
+      "msg": 18,
+      "obs_sha256": "0eaa035d876e25f5ed9ae9e72620ac4ce6e1fa1100454cd2e7e501b120f4e906",
+      "p_chosen": 0.2541960164348632,
+      "response_index": 1,
+      "rows": 5,
+      "subdecision": 0,
+      "turn": 1,
+      "value": -0.09152156114578247,
+      "viewer": 0,
+      "wdl": [
+        0.4541390907528554,
+        0.00020025594980648657,
+        0.545660653297338
+      ]
+    },
+    {
+      "forced": true,
+      "msg": 16,
+      "response_index": 2,
+      "turn": 1,
+      "viewer": 0
+    }
+  ]
+}

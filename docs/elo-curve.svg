@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 950 380" width="950" height="380" font-family="Helvetica, Arial, sans-serif">
+<style>.t{font-size:15px;font-weight:600;fill:#111827}.a{font-size:12px;fill:#4b5563}.r{font-size:11px;fill:#b45309}
+.frame{fill:#ffffff;stroke:#d1d5db}.grid{stroke:#e5e7eb}.ref{stroke:#d97706;stroke-dasharray:5 4}</style>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="265.0" y="26" text-anchor="middle" class="t">Elo (internal self-play scale)</text>
+<rect x="70" y="46" width="390.0" height="280" class="frame"/>
+<line x1="70" x2="460.0" y1="326.0" y2="326.0" class="grid"/>
+<text x="62" y="330.0" text-anchor="end" class="a">-600</text>
+<line x1="70" x2="460.0" y1="256.0" y2="256.0" class="grid"/>
+<text x="62" y="260.0" text-anchor="end" class="a">-300</text>
+<line x1="70" x2="460.0" y1="186.0" y2="186.0" class="grid"/>
+<text x="62" y="190.0" text-anchor="end" class="a">0</text>
+<line x1="70" x2="460.0" y1="116.0" y2="116.0" class="grid"/>
+<text x="62" y="120.0" text-anchor="end" class="a">+300</text>
+<line x1="70" x2="460.0" y1="46.0" y2="46.0" class="grid"/>
+<text x="62" y="50.0" text-anchor="end" class="a">+600</text>
+<text x="70.0" y="344" text-anchor="middle" class="a">0</text>
+<text x="148.0" y="344" text-anchor="middle" class="a">200</text>
+<text x="226.0" y="344" text-anchor="middle" class="a">400</text>
+<text x="304.0" y="344" text-anchor="middle" class="a">600</text>
+<text x="382.0" y="344" text-anchor="middle" class="a">800</text>
+<text x="460.0" y="344" text-anchor="middle" class="a">1000</text>
+<text x="265.0" y="368" text-anchor="middle" class="a">training iteration</text>
+<line x1="70" x2="460.0" y1="152.6" y2="152.6" class="ref"/>
+<text x="454.0" y="146.6" text-anchor="end" class="r">reference PPO agent</text>
+<path d="M77.8,319.0 L109.0,178.0 L124.6,148.9 L148.0,126.6 L187.0,118.3 L226.0,108.1 L257.2,114.3 L265.0,103.6 L304.0,77.3 L343.0,92.5 L382.0,86.9 L421.0,82.3 L460.0,92.5" fill="none" stroke="#2563eb" stroke-width="2.5"/>
+<circle cx="77.8" cy="319.0" r="3.5" fill="#2563eb"/>
+<circle cx="109.0" cy="178.0" r="3.5" fill="#2563eb"/>
+<circle cx="124.6" cy="148.9" r="3.5" fill="#2563eb"/>
+<circle cx="148.0" cy="126.6" r="3.5" fill="#2563eb"/>
+<circle cx="187.0" cy="118.3" r="3.5" fill="#2563eb"/>
+<circle cx="226.0" cy="108.1" r="3.5" fill="#2563eb"/>
+<circle cx="257.2" cy="114.3" r="3.5" fill="#2563eb"/>
+<circle cx="265.0" cy="103.6" r="3.5" fill="#2563eb"/>
+<circle cx="304.0" cy="77.3" r="3.5" fill="#2563eb"/>
+<circle cx="343.0" cy="92.5" r="3.5" fill="#2563eb"/>
+<circle cx="382.0" cy="86.9" r="3.5" fill="#2563eb"/>
+<circle cx="421.0" cy="82.3" r="3.5" fill="#2563eb"/>
+<circle cx="460.0" cy="92.5" r="3.5" fill="#2563eb"/>
+<text x="725.0" y="26" text-anchor="middle" class="t">Win rate against WinBot (%)</text>
+<rect x="530.0" y="46" width="390.0" height="280" class="frame"/>
+<line x1="530.0" x2="920.0" y1="326.0" y2="326.0" class="grid"/>
+<text x="522.0" y="330.0" text-anchor="end" class="a">20</text>
+<line x1="530.0" x2="920.0" y1="256.0" y2="256.0" class="grid"/>
+<text x="522.0" y="260.0" text-anchor="end" class="a">40</text>
+<line x1="530.0" x2="920.0" y1="186.0" y2="186.0" class="grid"/>
+<text x="522.0" y="190.0" text-anchor="end" class="a">60</text>
+<line x1="530.0" x2="920.0" y1="116.0" y2="116.0" class="grid"/>
+<text x="522.0" y="120.0" text-anchor="end" class="a">80</text>
+<line x1="530.0" x2="920.0" y1="46.0" y2="46.0" class="grid"/>
+<text x="522.0" y="50.0" text-anchor="end" class="a">100</text>
+<text x="530.0" y="344" text-anchor="middle" class="a">0</text>
+<text x="608.0" y="344" text-anchor="middle" class="a">200</text>
+<text x="686.0" y="344" text-anchor="middle" class="a">400</text>
+<text x="764.0" y="344" text-anchor="middle" class="a">600</text>
+<text x="842.0" y="344" text-anchor="middle" class="a">800</text>
+<text x="920.0" y="344" text-anchor="middle" class="a">1000</text>
+<text x="725.0" y="368" text-anchor="middle" class="a">training iteration</text>
+<path d="M537.8,304.1 L569.0,83.6 L584.6,74.0 L608.0,65.2 L647.0,60.0 L686.0,53.0 L717.2,54.8 L725.0,54.8 L764.0,53.0 L803.0,56.5 L842.0,54.8 L881.0,58.2 L920.0,53.0" fill="none" stroke="#059669" stroke-width="2.5"/>
+<circle cx="537.8" cy="304.1" r="3.5" fill="#059669"/>
+<circle cx="569.0" cy="83.6" r="3.5" fill="#059669"/>
+<circle cx="584.6" cy="74.0" r="3.5" fill="#059669"/>
+<circle cx="608.0" cy="65.2" r="3.5" fill="#059669"/>
+<circle cx="647.0" cy="60.0" r="3.5" fill="#059669"/>
+<circle cx="686.0" cy="53.0" r="3.5" fill="#059669"/>
+<circle cx="717.2" cy="54.8" r="3.5" fill="#059669"/>
+<circle cx="725.0" cy="54.8" r="3.5" fill="#059669"/>
+<circle cx="764.0" cy="53.0" r="3.5" fill="#059669"/>
+<circle cx="803.0" cy="56.5" r="3.5" fill="#059669"/>
+<circle cx="842.0" cy="54.8" r="3.5" fill="#059669"/>
+<circle cx="881.0" cy="58.2" r="3.5" fill="#059669"/>
+<circle cx="920.0" cy="53.0" r="3.5" fill="#059669"/>
+</svg>

@@ -1,0 +1,20 @@
+# Training and inference (Python 3.11). Install the jax[cuda12] variant of the same version for GPUs.
+jax==0.5.3
+jaxlib==0.5.3
+flax==0.10.4
+optax==0.2.2
+chex==0.1.86
+distrax==0.1.5
+optree==0.11.0
+ml_dtypes==0.5.4
+numpy==1.26.4
+scipy==1.13.1
+dm-env==1.6
+gym==0.26.2
+gymnasium==0.29.1
+tyro==0.8.5
+tensorboardX==2.6.2.2
+rich==13.7.1
+pytest==8.3.3
+# The search follower and some shared modules additionally use:
+# torch (CPU build is enough), pyarrow

@@ -1,0 +1,17 @@
+MirrorForce agent baseline: imported third-party code
+======================================================
+
+The environment (mirrorforce/cxx/duelpool), model (mirrorforce/agent/model,
+mirrorforce/agent/rl, mirrorforce/agent/{constants,utils}.py), trainer
+(mirrorforce/agent/train) and semantic-table builder (mirrorforce/agent/semantics)
+started from a fork of the open-source project at
+https://github.com/sbl1996/ygo-agent, imported with the fork author's consent.
+The upstream project is MIT licensed, copyright (c) 2024 Hastur; the license
+text is kept unchanged in LICENSE.upstream. The C++ environment derives from
+EnvPool (Apache License 2.0, copyright 2021 Garena Online Private Limited);
+its headers keep their original license notices.
+
+The import renamed packages, identifiers and include names without changing
+logic. Not imported: weights, card database, Lua scripts, semantic tables,
+decks, torch code paths, and the fork's monitoring and operations scripts.
+Later changes are this project's own.

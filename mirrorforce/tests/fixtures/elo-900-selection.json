@@ -1,0 +1,29 @@
+{
+  "GPU_launches": 0,
+  "checkpoint_sha256": "271c812a2d6fe84cf12885ad547ba67d3975f1d4c8c46bc484c14e709d75469f",
+  "counters": {
+    "global_step": 2349465600,
+    "learner_update": 900
+  },
+  "iteration": 900,
+  "local_all_SHA_match": true,
+  "payload_bytes": 562407040,
+  "receipt_file_sha256": "3316da3c4c64f745d15d5e192364c0752faeb57849fb38d8c5c26d4fbda7337f",
+  "schema": "mirrorforce_fixed100_raw_artifact_selection/v1",
+  "source_hashes": [
+    {
+      "bytes": 562407040,
+      "path": "/data/mirrorforce/run-t10-eeec7990-20261003/checkpoints/271c812a2d6fe84cf12885ad547ba67d3975f1d4c8c46bc484c14e709d75469f.ckpt",
+      "sha256": "271c812a2d6fe84cf12885ad547ba67d3975f1d4c8c46bc484c14e709d75469f"
+    },
+    {
+      "bytes": 13967,
+      "path": "/data/mirrorforce/run-t10-eeec7990-20261003/checkpoints/271c812a2d6fe84cf12885ad547ba67d3975f1d4c8c46bc484c14e709d75469f.receipt.json",
+      "sha256": "3316da3c4c64f745d15d5e192364c0752faeb57849fb38d8c5c26d4fbda7337f"
+    }
+  ],
+  "source_host": "42",
+  "source_root": "/data/mirrorforce/run-t10-eeec7990-20261003",
+  "status": "COMPLETE_FIXED_RAW_POINT_AWAITING_GPU_PLAN_APPROVAL",
+  "training_mutated": false
+}

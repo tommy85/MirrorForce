@@ -1,0 +1,27 @@
+{
+  "adamw": [
+    "bias",
+    "norm_scale",
+    "embedding",
+    "projection"
+  ],
+  "frozen": [
+    "unused_matrix",
+    "unused_bias"
+  ],
+  "grad_max_norm": 1.0,
+  "learning_rate": 0.02,
+  "muon": [
+    "weight"
+  ],
+  "npz_sha256": "d466480ea670c98ee43fa21fc358b08a9bedfc39d1e8eeb74ed46e0a840b2ba1",
+  "reference_commit": "acdcf199cf422e2b683cb22142b8e7cb33b14460",
+  "reference_files": {
+    "marvel/model/trainable.py": "342517e4b0cd1a7a73c94deba1476731ff01f31e90dc6d38d2d50a371cd00e12",
+    "marvel/optim/muon.py": "471f7f2220c684ece167fab75fb9801758ce29319eef6ae090800ae079793ba4"
+  },
+  "schema": "mirrorforce_vrpo_optimizer_groups_reference/v1",
+  "script_sha256": "2a81faf8de6771d8c8502d9316baf0ef771a81051f2538788b5d00ee9c446cd5",
+  "steps": 3,
+  "torch": "2.13.0+cpu"
+}

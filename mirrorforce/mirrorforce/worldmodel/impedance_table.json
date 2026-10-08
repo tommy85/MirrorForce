@@ -1,0 +1,1664 @@
+{
+ "version": 1,
+ "note": "Impedance label table: all 263 cards of the ten fixed decks reviewed. zone = zone holding the resource; cls: stop = interference (negate / remove / rewrite the opponent's action), check = restraint (punish / lock / extend on the opponent's turn). Approximations: once-per-turn usage, cards set this turn are not judged, and material / counter cards are counted statically by count. Resistance (targeting / destruction immunity) and pure protection are not counted; they belong to a future third channel. Entries with conf=review await a check of how often they are realized on the corpus. | After a corpus check (10,000 games) 8 cards were added: one missed in review, the rest missed by \"either player's Main Phase\" wording or graveyard clauses; zero realization for continuous cards (Gorgon of Zilofthonia, Thunder Dragon Colossus, etc.) is expected (they do not use the chain).",
+ "cards": {
+  "1269512": {
+   "name": "Full Armored Utopic Ray Lancer",
+   "roles": [
+    {
+     "zone": "mzone",
+     "cls": "stop",
+     "cond": "at the start of the Battle Phase; negate all attack-position monsters"
+    }
+   ],
+   "conf": "review"
+  },
+  "2347656": {
+   "name": "Lovely Labrynth of the Silver Castle",
+   "roles": [
+    {
+     "zone": "mzone",
+     "cls": "stop",
+     "cond": "when a normal trap is activated; destroy 1 card in the opponent's hand / field"
+    }
+   ],
+   "conf": "high"
+  },
+  "4779091": {
+   "name": "Yubel - Terror Incarnate",
+   "roles": [
+    {
+     "zone": "mzone",
+     "cls": "check",
+     "cond": "deterrent: battle damage reflection"
+    }
+   ],
+   "conf": "high"
+  },
+  "4891376": {
+   "name": "Zalen the Shackled Dragon",
+   "roles": [
+    {
+     "zone": "mzone",
+     "cls": "stop",
+     "cond": "negates and destroys an effect activated in a chain"
+    }
+   ],
+   "conf": "high"
+  },
+  "4928565": {
+   "name": "Tearlaments Kashtira",
+   "roles": [
+    {
+     "zone": "hand",
+     "cls": "check",
+     "cond": "special summons itself in either player's Main Phase"
+    }
+   ],
+   "conf": "high"
+  },
+  "5041348": {
+   "name": "Draco Berserker of the Tenyi",
+   "roles": [
+    {
+     "zone": "mzone",
+     "cls": "stop",
+     "cond": "banishes that monster when the opponent activates a monster effect"
+    }
+   ],
+   "conf": "high"
+  },
+  "5318639": {
+   "name": "Mystical Space Typhoon",
+   "roles": [
+    {
+     "zone": "szone_set",
+     "cls": "stop",
+     "cond": "destroy 1 spell/trap"
+    }
+   ],
+   "conf": "high"
+  },
+  "5380979": {
+   "name": "Welcome Labrynth",
+   "roles": [
+    {
+     "zone": "szone_set",
+     "cls": "check",
+     "cond": "brings out a Labrynth monster on the opponent's turn"
+    }
+   ],
+   "conf": "high"
+  },
+  "5559570": {
+   "name": "Elfnote June Pride",
+   "roles": [
+    {
+     "zone": "mzone",
+     "cls": "check",
+     "cond": "attack lock in the center zone"
+    }
+   ],
+   "conf": "high"
+  },
+  "6351147": {
+   "name": "Transaction Rollback",
+   "roles": [
+    {
+     "zone": "szone_set",
+     "cls": "stop",
+     "cond": "copy a normal trap in the opponent's graveyard"
+    },
+    {
+     "zone": "grave",
+     "cls": "stop",
+     "cond": "pay half LP to copy a normal trap in your graveyard"
+    }
+   ],
+   "conf": "review"
+  },
+  "6983839": {
+   "name": "Tornado Dragon",
+   "roles": [
+    {
+     "zone": "mzone",
+     "cls": "stop",
+     "cond": "with material; destroy a spell/trap"
+    }
+   ],
+   "conf": "high"
+  },
+  "9726840": {
+   "name": "Sky Striker Mobilize - Linkage!",
+   "roles": [
+    {
+     "zone": "szone_set",
+     "cls": "check",
+     "cond": "brings out a Sky Striker Ace on the opponent's turn"
+    }
+   ],
+   "conf": "high"
+  },
+  "9940036": {
+   "name": "Mereologic Aggregator",
+   "roles": [
+    {
+     "zone": "mzone",
+     "cls": "check",
+     "cond": "when sent to the graveyard, negate 1 card on the field (deterrent)"
+    }
+   ],
+   "conf": "review"
+  },
+  "10045474": {
+   "name": "Infinite Impermanence",
+   "roles": [
+    {
+     "zone": "hand",
+     "cls": "stop",
+     "cond": "you control no cards"
+    },
+    {
+     "zone": "szone_set",
+     "cls": "stop"
+    }
+   ],
+   "conf": "high"
+  },
+  "12067160": {
+   "name": "Gorgon of Zilofthonia",
+   "roles": [
+    {
+     "zone": "mzone",
+     "cls": "check",
+     "cond": "locks effects in linked zones"
+    }
+   ],
+   "conf": "review"
+  },
+  "12375297": {
+   "name": "Elfnote Power Patron",
+   "roles": [
+    {
+     "zone": "mzone",
+     "cls": "check",
+     "cond": "level manipulation in either Main Phase -> synchro on the opponent's turn"
+    }
+   ],
+   "conf": "high"
+  },
+  "13597785": {
+   "name": "Elfnote Lucina",
+   "roles": [
+    {
+     "zone": "mzone",
+     "cls": "stop",
+     "cond": "opponent's turn: swap; bounce 1 Level 6 or lower monster"
+    }
+   ],
+   "conf": "high"
+  },
+  "14558127": {
+   "name": "Ash Blossom & Joyous Spring",
+   "roles": [
+    {
+     "zone": "hand",
+     "cls": "stop",
+     "cond": "responds to search / special summon / send-to-graveyard activations"
+    }
+   ],
+   "conf": "high"
+  },
+  "14558128": {
+   "name": "Ash Blossom & Joyous Spring",
+   "roles": [
+    {
+     "zone": "hand",
+     "cls": "stop",
+     "cond": "responds to search / special summon / send-to-graveyard activations"
+    }
+   ],
+   "conf": "high"
+  },
+  "14821890": {
+   "name": "Swordsoul Blackout",
+   "roles": [
+    {
+     "zone": "szone_set",
+     "cls": "stop",
+     "cond": "you control a Wyrm; destroy 2 of the opponent's cards"
+    }
+   ],
+   "conf": "high"
+  },
+  "15291624": {
+   "name": "Thunder Dragon Colossus",
+   "roles": [
+    {
+     "zone": "mzone",
+     "cls": "check",
+     "cond": "locks adding cards from the deck to the hand"
+    }
+   ],
+   "conf": "high"
+  },
+  "15665977": {
+   "name": "Kewl Tune RS",
+   "roles": [
+    {
+     "zone": "mzone",
+     "cls": "stop",
+     "cond": "either Main Phase; a tuner in the graveyard"
+    }
+   ],
+   "conf": "high"
+  },
+  "17751597": {
+   "name": "Branded Retribution",
+   "roles": [
+    {
+     "zone": "szone_set",
+     "cls": "stop",
+     "cond": "an Albaz fusion monster on the field / in the graveyard; negate and destroy special summon activations"
+    }
+   ],
+   "conf": "high"
+  },
+  "17954937": {
+   "name": "Mitsurugi Great Purification",
+   "roles": [
+    {
+     "zone": "szone_set",
+     "cls": "stop",
+     "cond": "tribute a Level 5+ Reptile; negate the activation and destroy"
+    }
+   ],
+   "conf": "high"
+  },
+  "19899073": {
+   "name": "Ame no Murakumo no Mitsurugi",
+   "roles": [
+    {
+     "zone": "mzone",
+     "cls": "stop",
+     "cond": "when the opponent activates; negated unless they discard 1"
+    }
+   ],
+   "conf": "high"
+  },
+  "20726052": {
+   "name": "Maliss <C> GWC-06",
+   "roles": [
+    {
+     "zone": "szone_set",
+     "cls": "check",
+     "cond": "revive a Maliss"
+    }
+   ],
+   "conf": "high"
+  },
+  "20938824": {
+   "name": "Maliss <P> March Hare",
+   "roles": [
+    {
+     "zone": "hand",
+     "cls": "check",
+     "cond": "special summons itself in either player's Main Phase"
+    }
+   ],
+   "conf": "high"
+  },
+  "21848500": {
+   "name": "Maliss <Q> Hearts Crypter",
+   "roles": [
+    {
+     "zone": "mzone",
+     "cls": "stop",
+     "cond": "either turn; with a banished Maliss; banish 1 card on the field"
+    }
+   ],
+   "conf": "high"
+  },
+  "23431858": {
+   "name": "Tenyi Spirit - Vishuda",
+   "roles": [
+    {
+     "zone": "hand",
+     "cls": "stop",
+     "cond": "you control a face-up non-effect monster; bounce 1 card on the field"
+    },
+    {
+     "zone": "grave",
+     "cls": "stop",
+     "cond": "same as above"
+    }
+   ],
+   "conf": "high"
+  },
+  "23434538": {
+   "name": "Maxx \"C\"",
+   "roles": [
+    {
+     "zone": "hand",
+     "cls": "check",
+     "cond": "punishes special summons with draws"
+    }
+   ],
+   "conf": "high"
+  },
+  "24092792": {
+   "name": "Elfnotes: Rhapsodia of Madness",
+   "roles": [
+    {
+     "zone": "szone_set",
+     "cls": "check",
+     "cond": "attack redirection + revival"
+    }
+   ],
+   "conf": "review"
+  },
+  "24203749": {
+   "name": "The World's Greatest Gallant Thief",
+   "roles": [
+    {
+     "zone": "mzone",
+     "cls": "stop",
+     "cond": "when normal summoned; negate and destroy activations from the hand, graveyard or banishment"
+    }
+   ],
+   "conf": "high"
+  },
+  "24215921": {
+   "name": "Gruesome Grave Squirmer",
+   "roles": [
+    {
+     "zone": "hand",
+     "cls": "check",
+     "cond": "you control a Fiend"
+    }
+   ],
+   "conf": "high"
+  },
+  "24224830": {
+   "name": "Called by the Grave",
+   "roles": [
+    {
+     "zone": "szone_set",
+     "cls": "stop",
+     "cond": "banish a monster from the opponent's graveyard + negate cards with that name"
+    },
+    {
+     "zone": "hand",
+     "cls": "stop",
+     "cond": "can be activated from the hand on your turn"
+    }
+   ],
+   "conf": "high"
+  },
+  "24269961": {
+   "name": "Unchained Soul Lord of Yama",
+   "roles": [
+    {
+     "zone": "grave",
+     "cls": "check",
+     "cond": "when a card you control is destroyed, banish -> special summon a Fiend"
+    }
+   ],
+   "conf": "high"
+  },
+  "24299458": {
+   "name": "Forbidden Droplet",
+   "roles": [
+    {
+     "zone": "szone_set",
+     "cls": "stop",
+     "cond": "send any number to the graveyard -> negate the effects of that many monsters"
+    },
+    {
+     "zone": "hand",
+     "cls": "stop",
+     "cond": "can be activated from the hand on your turn"
+    }
+   ],
+   "conf": "high"
+  },
+  "24915933": {
+   "name": "Granguignol the Dusk Dragon",
+   "roles": [
+    {
+     "zone": "mzone",
+     "cls": "check",
+     "cond": "brings out Dogmatika / Despia when the opponent's special summon triggers it"
+    },
+    {
+     "zone": "grave",
+     "cls": "check",
+     "cond": "same as above; activated by banishing it from the graveyard"
+    }
+   ],
+   "conf": "high"
+  },
+  "25072579": {
+   "name": "Prototype Sky Striker Ace - Amatsu",
+   "roles": [
+    {
+     "zone": "mzone",
+     "cls": "stop",
+     "cond": "rewrites the effect when the opponent's 2000+ ATK monster activates"
+    }
+   ],
+   "conf": "high"
+  },
+  "26077387": {
+   "name": "Sky Striker Ace - Raye",
+   "roles": [
+    {
+     "zone": "mzone",
+     "cls": "check",
+     "cond": "either turn: tribute -> special summon from the Extra Deck"
+    }
+   ],
+   "conf": "high"
+  },
+  "27204311": {
+   "name": "Nibiru, the Primal Being",
+   "roles": [
+    {
+     "zone": "hand",
+     "cls": "stop",
+     "cond": "after the opponent's fifth or later summon"
+    }
+   ],
+   "conf": "high"
+  },
+  "27548199": {
+   "name": "Borreload Savage Dragon",
+   "roles": [
+    {
+     "zone": "mzone",
+     "cls": "stop",
+     "cond": "by the number of Borrel counters; negate the opponent's activation"
+    }
+   ],
+   "conf": "high"
+  },
+  "27572350": {
+   "name": "Bystial Dis Pater",
+   "roles": [
+    {
+     "zone": "mzone",
+     "cls": "stop",
+     "cond": "with a banished card; responds to monster effects"
+    }
+   ],
+   "conf": "high"
+  },
+  "29301450": {
+   "name": "S:P Little Knight",
+   "roles": [
+    {
+     "zone": "mzone",
+     "cls": "stop",
+     "cond": "when the opponent activates an effect; banish two monsters temporarily"
+    }
+   ],
+   "conf": "high"
+  },
+  "29479265": {
+   "name": "Unchained Abomination",
+   "roles": [
+    {
+     "zone": "mzone",
+     "cls": "stop",
+     "cond": "chains to destroy 1 card when another card is destroyed"
+    }
+   ],
+   "conf": "high"
+  },
+  "30271097": {
+   "name": "The Fallen & The Virtuous",
+   "roles": [
+    {
+     "zone": "szone_set",
+     "cls": "stop",
+     "cond": "send an Albaz-named monster from the Extra Deck; destroy 1 face-up card"
+    }
+   ],
+   "conf": "high"
+  },
+  "30748475": {
+   "name": "Destructive Daruma Karma Cannon",
+   "roles": [
+    {
+     "zone": "szone_set",
+     "cls": "stop",
+     "cond": "turns everything face-down defense + clears face-up cards"
+    }
+   ],
+   "conf": "high"
+  },
+  "30983281": {
+   "name": "Accel Synchro Stardust Dragon",
+   "roles": [
+    {
+     "zone": "mzone",
+     "cls": "check",
+     "cond": "either Main Phase: tribute -> follow with a synchro monster"
+    }
+   ],
+   "conf": "high"
+  },
+  "32909498": {
+   "name": "Kashtira Fenrir",
+   "roles": [
+    {
+     "zone": "mzone",
+     "cls": "stop",
+     "cond": "when the opponent activates a monster effect; banish 1 face-up card on the field face-down"
+    }
+   ],
+   "conf": "high"
+  },
+  "33925864": {
+   "name": "Kashtira Big Bang",
+   "roles": [
+    {
+     "zone": "szone_set",
+     "cls": "stop",
+     "cond": "both sides banish face-down until each keeps 1 monster"
+    }
+   ],
+   "conf": "high"
+  },
+  "34433770": {
+   "name": "Sky Striker Special Maneuver - Lemnisgate!",
+   "roles": [
+    {
+     "zone": "szone_set",
+     "cls": "stop",
+     "cond": "recover Sky Striker cards -> bounce field cards at 3:1"
+    }
+   ],
+   "conf": "review"
+  },
+  "34909328": {
+   "name": "Ryzeal Detonator",
+   "roles": [
+    {
+     "zone": "mzone",
+     "cls": "stop",
+     "cond": "with Xyz material; destroy 1 card when the opponent activates"
+    }
+   ],
+   "conf": "high"
+  },
+  "38814750": {
+   "name": "PSY-Framegear Gamma",
+   "roles": [
+    {
+     "zone": "hand",
+     "cls": "stop",
+     "cond": "you control no monsters"
+    }
+   ],
+   "conf": "high"
+  },
+  "39138610": {
+   "name": "Allied Code Talker @Ignister",
+   "roles": [
+    {
+     "zone": "mzone",
+     "cls": "stop",
+     "cond": "a monster linked to it is in a linked zone; negate and banish"
+    }
+   ],
+   "conf": "high"
+  },
+  "40366667": {
+   "name": "Dominus Impulse",
+   "roles": [
+    {
+     "zone": "szone_set",
+     "cls": "stop",
+     "cond": "negates special summon activations"
+    },
+    {
+     "zone": "hand",
+     "cls": "stop",
+     "cond": "can be activated from the hand while the opponent controls a card"
+    }
+   ],
+   "conf": "high"
+  },
+  "40673853": {
+   "name": "Vallon, the Super Psy Skyblaster",
+   "roles": [
+    {
+     "zone": "mzone",
+     "cls": "stop",
+     "cond": "either Main Phase; detach material to change to face-down defense"
+    }
+   ],
+   "conf": "high"
+  },
+  "41069676": {
+   "name": "Kewl Tune Loudness War",
+   "roles": [
+    {
+     "zone": "mzone",
+     "cls": "check",
+     "cond": "when the opponent activates, banish a graveyard tuner to apply its material effect"
+    }
+   ],
+   "conf": "review"
+  },
+  "41165831": {
+   "name": "Unchained Soul of Sharvara",
+   "roles": [
+    {
+     "zone": "hand",
+     "cls": "check",
+     "cond": "destroys itself and special summons in either Main Phase"
+    }
+   ],
+   "conf": "high"
+  },
+  "42141493": {
+   "name": "Mulcharmy Fuwalos",
+   "roles": [
+    {
+     "zone": "hand",
+     "cls": "check",
+     "cond": "you control no cards; punishes special summons from the deck / Extra Deck"
+    }
+   ],
+   "conf": "high"
+  },
+  "42302563": {
+   "name": "Elfnote Seraphim Strelitzia",
+   "roles": [
+    {
+     "zone": "mzone",
+     "cls": "check",
+     "cond": "special summons an Elfnote from hand / graveyard in either Main Phase"
+    }
+   ],
+   "conf": "high"
+  },
+  "43904702": {
+   "name": "Kewl Tune Clip",
+   "roles": [
+    {
+     "zone": "hand",
+     "cls": "check",
+     "cond": "special summons itself in the opponent's Main Phase + leads to a synchro on the opponent's turn"
+    }
+   ],
+   "conf": "high"
+  },
+  "44146295": {
+   "name": "Mirrorjade the Iceblade Dragon",
+   "roles": [
+    {
+     "zone": "mzone",
+     "cls": "stop",
+     "cond": "either turn; send an Albaz fusion from the Extra Deck -> banish 1 monster"
+    }
+   ],
+   "conf": "high"
+  },
+  "44508094": {
+   "name": "Stardust Dragon",
+   "roles": [
+    {
+     "zone": "mzone",
+     "cls": "stop",
+     "cond": "responds to destruction effects; tribute itself to negate"
+    }
+   ],
+   "conf": "high"
+  },
+  "47710198": {
+   "name": "Swordsoul Sinister Sovereign - Qixing Longyuan",
+   "roles": [
+    {
+     "zone": "mzone",
+     "cls": "stop",
+     "cond": "opponent special summons -> banish + burn"
+    },
+    {
+     "zone": "mzone",
+     "cls": "stop",
+     "cond": "opponent's spell/trap -> banish + burn"
+    }
+   ],
+   "conf": "high"
+  },
+  "48626373": {
+   "name": "Kashtira Arise-Heart",
+   "roles": [
+    {
+     "zone": "mzone",
+     "cls": "check",
+     "cond": "everything sent to the graveyard is banished instead"
+    },
+    {
+     "zone": "mzone",
+     "cls": "stop",
+     "cond": "either turn; 3 materials: banish 1 card face-down"
+    }
+   ],
+   "conf": "high"
+  },
+  "51409648": {
+   "name": "Rindbrumm the Striking Dragon",
+   "roles": [
+    {
+     "zone": "mzone",
+     "cls": "stop",
+     "cond": "responds to Extra Deck monster effects"
+    },
+    {
+     "zone": "grave",
+     "cls": "check",
+     "cond": "opponent's turn; Albaz in the graveyard"
+    }
+   ],
+   "conf": "high"
+  },
+  "53417695": {
+   "name": "Escape of the Unchained",
+   "roles": [
+    {
+     "zone": "szone_set",
+     "cls": "stop",
+     "cond": "destroy your own Unchained card + 1 card on the field"
+    }
+   ],
+   "conf": "high"
+  },
+  "55273560": {
+   "name": "Incredible Ecclesia, the Virtuous",
+   "roles": [
+    {
+     "zone": "mzone",
+     "cls": "check",
+     "cond": "either Main Phase: tribute -> special summon a Swordsoul / Albaz"
+    }
+   ],
+   "conf": "high"
+  },
+  "55397172": {
+   "name": "Futsu no Mitama no Mitsurugi",
+   "roles": [
+    {
+     "zone": "mzone",
+     "cls": "check",
+     "cond": "revives a Reptile when the opponent special summons"
+    }
+   ],
+   "conf": "review"
+  },
+  "56651978": {
+   "name": "Elfnote Regina",
+   "roles": [
+    {
+     "zone": "hand",
+     "cls": "check",
+     "cond": "special summons itself on either turn"
+    }
+   ],
+   "conf": "high"
+  },
+  "57111661": {
+   "name": "Maliss <C> TB-11",
+   "roles": [
+    {
+     "zone": "szone_set",
+     "cls": "check",
+     "cond": "special summon a Maliss"
+    }
+   ],
+   "conf": "high"
+  },
+  "59438930": {
+   "name": "Ghost Ogre & Snow Rabbit",
+   "roles": [
+    {
+     "zone": "hand",
+     "cls": "stop",
+     "cond": "responds to effects activated on the field"
+    },
+    {
+     "zone": "mzone",
+     "cls": "stop",
+     "cond": "can also be activated while face-up"
+    }
+   ],
+   "conf": "high"
+  },
+  "59581480": {
+   "name": "Elfnote Tinia",
+   "roles": [
+    {
+     "zone": "mzone",
+     "cls": "check",
+     "cond": "opponent's turn: swap; look at 1 random hand card and banish it temporarily"
+    }
+   ],
+   "conf": "high"
+  },
+  "62318994": {
+   "name": "Samsara D Lotus",
+   "roles": [
+    {
+     "zone": "mzone",
+     "cls": "stop",
+     "cond": "you control Yubel; rewrite the effect"
+    }
+   ],
+   "conf": "high"
+  },
+  "64211118": {
+   "name": "Firewall Dragon Darkfluid - Neo Tempest Terahertz",
+   "roles": [
+    {
+     "zone": "mzone",
+     "cls": "check",
+     "cond": "locks monster effects in the Battle Phase"
+    }
+   ],
+   "conf": "high"
+  },
+  "65681983": {
+   "name": "Crossout Designator",
+   "roles": [
+    {
+     "zone": "szone_set",
+     "cls": "stop",
+     "cond": "banish a card of the same name from the deck; negate a declaration"
+    },
+    {
+     "zone": "hand",
+     "cls": "stop",
+     "cond": "can be activated from the hand on your turn"
+    }
+   ],
+   "conf": "high"
+  },
+  "65741786": {
+   "name": "I:P Masquerena",
+   "roles": [
+    {
+     "zone": "mzone",
+     "cls": "check",
+     "cond": "link summons in the opponent's Main Phase"
+    }
+   ],
+   "conf": "high"
+  },
+  "65961304": {
+   "name": "Kewl Tune B2B",
+   "roles": [
+    {
+     "zone": "mzone",
+     "cls": "check",
+     "cond": "recovers / special summons a tuner + synchro when the opponent activates a monster effect",
+     "count": 2
+    }
+   ],
+   "conf": "high"
+  },
+  "66122213": {
+   "name": "Infernal Strike Fighter",
+   "roles": [
+    {
+     "zone": "mzone",
+     "cls": "stop",
+     "cond": "either player's Main Phase 2; destroy all face-up monsters"
+    }
+   ],
+   "conf": "high"
+  },
+  "67680512": {
+   "name": "Unchained Soul of Rage",
+   "roles": [
+    {
+     "zone": "mzone",
+     "cls": "stop",
+     "cond": "opponent's Main Phase; link summon using the opponent's monsters"
+    }
+   ],
+   "conf": "high"
+  },
+  "68059897": {
+   "name": "Maliss <Q> Red Ransom",
+   "roles": [
+    {
+     "zone": "mzone",
+     "cls": "check",
+     "cond": "a monster in a linked zone; swap ATK/DEF of opponent's effect monsters"
+    }
+   ],
+   "conf": "review"
+  },
+  "68304193": {
+   "name": "Kashtira Unicorn",
+   "roles": [
+    {
+     "zone": "mzone",
+     "cls": "check",
+     "cond": "banishes 1 Extra Deck monster when the opponent activates a monster effect"
+    }
+   ],
+   "conf": "high"
+  },
+  "70636044": {
+   "name": "Varudras, the Final Bringer of the End Times",
+   "roles": [
+    {
+     "zone": "mzone",
+     "cls": "stop",
+     "cond": "with material; negate any activation"
+    }
+   ],
+   "conf": "high"
+  },
+  "72272462": {
+   "name": "Despian Quaeritis",
+   "roles": [
+    {
+     "zone": "mzone",
+     "cls": "check",
+     "cond": "all monsters' ATK becomes 0 in either Main Phase"
+    }
+   ],
+   "conf": "high"
+  },
+  "73542331": {
+   "name": "Kashtira Shangri-Ira",
+   "roles": [
+    {
+     "zone": "mzone",
+     "cls": "check",
+     "cond": "special summon in the Standby Phase + zone lock"
+    }
+   ],
+   "conf": "high"
+  },
+  "73602965": {
+   "name": "Arias the Labrynth Butler",
+   "roles": [
+    {
+     "zone": "hand",
+     "cls": "check",
+     "cond": "brings out a monster / sets a trap in either Main Phase"
+    }
+   ],
+   "conf": "high"
+  },
+  "73642296": {
+   "name": "Ghost Belle & Haunted Mansion",
+   "roles": [
+    {
+     "zone": "hand",
+     "cls": "stop",
+     "cond": "responds to graveyard-related activations"
+    }
+   ],
+   "conf": "high"
+  },
+  "73898890": {
+   "name": "Dyna Mondo",
+   "roles": [
+    {
+     "zone": "mzone",
+     "cls": "check",
+     "cond": "opponent's turn: tribute -> revive a ritual monster"
+    }
+   ],
+   "conf": "high"
+  },
+  "74405783": {
+   "name": "The Three Champions of Swordsoul",
+   "roles": [
+    {
+     "zone": "mzone",
+     "cls": "stop",
+     "cond": "negate a face-up card on the field; activation speed to be checked on the corpus"
+    }
+   ],
+   "conf": "review"
+  },
+  "76072561": {
+   "name": "Sky Striker Ace = Zero",
+   "roles": [
+    {
+     "zone": "mzone",
+     "cls": "stop",
+     "cond": "either turn: tribute -> bring out Raye / Roze + may destroy 1 card"
+    }
+   ],
+   "conf": "high"
+  },
+  "78058681": {
+   "name": "Kewl Tune Synchro",
+   "roles": [
+    {
+     "zone": "szone_set",
+     "cls": "check",
+     "cond": "opponent's turn: search + synchro"
+    }
+   ],
+   "conf": "high"
+  },
+  "78371393": {
+   "name": "Yubel",
+   "roles": [
+    {
+     "zone": "mzone",
+     "cls": "check",
+     "cond": "deterrent: battle damage reflection"
+    }
+   ],
+   "conf": "high"
+  },
+  "78397661": {
+   "name": "Ecclesia and the Dark Dragon",
+   "roles": [
+    {
+     "zone": "mzone",
+     "cls": "check",
+     "cond": "brings out Albaz in either Main Phase (can fuse with the opponent's monsters)"
+    }
+   ],
+   "conf": "high"
+  },
+  "78534861": {
+   "name": "Scareclaw Kashtira",
+   "roles": [
+    {
+     "zone": "hand",
+     "cls": "check",
+     "cond": "special summons itself in either player's Main Phase"
+    }
+   ],
+   "conf": "high"
+  },
+  "79559912": {
+   "name": "D/D/D Wave High King Caesar",
+   "roles": [
+    {
+     "zone": "mzone",
+     "cls": "stop",
+     "cond": "with Xyz material; responds to special summon activations"
+    }
+   ],
+   "conf": "high"
+  },
+  "80453041": {
+   "name": "Phantom of Yubel",
+   "roles": [
+    {
+     "zone": "mzone",
+     "cls": "stop",
+     "cond": "rewrites the opponent's monster effect into destroying Yubel (usually fizzles = negated)"
+    }
+   ],
+   "conf": "high"
+  },
+  "80801743": {
+   "name": "Abominable Chamber of the Unchained",
+   "roles": [
+    {
+     "zone": "szone_set",
+     "cls": "check",
+     "cond": "brings out an Unchained monster"
+    }
+   ],
+   "conf": "high"
+  },
+  "81497285": {
+   "name": "Lady Labrynth of the Silver Castle",
+   "roles": [
+    {
+     "zone": "hand",
+     "cls": "check",
+     "cond": "special summons itself when a Labrynth card / normal trap is activated"
+    }
+   ],
+   "conf": "high"
+  },
+  "82135803": {
+   "name": "Fiendsmith's Desirae",
+   "roles": [
+    {
+     "zone": "mzone",
+     "cls": "stop",
+     "cond": "either turn; negate field cards by the number of link arrows"
+    }
+   ],
+   "conf": "high"
+  },
+  "82489470": {
+   "name": "The Golden Swordsoul",
+   "roles": [
+    {
+     "zone": "hand",
+     "cls": "stop",
+     "cond": "special summon at an attack declaration and negate that attack"
+    }
+   ],
+   "conf": "high"
+  },
+  "83326048": {
+   "name": "Dimensional Barrier",
+   "roles": [
+    {
+     "zone": "szone_set",
+     "cls": "stop",
+     "cond": "declare a type; lock special summons + negate effects"
+    }
+   ],
+   "conf": "high"
+  },
+  "84192580": {
+   "name": "Mulcharmy Purulia",
+   "roles": [
+    {
+     "zone": "hand",
+     "cls": "check",
+     "cond": "you control no cards; punishes summons from the hand"
+    }
+   ],
+   "conf": "high"
+  },
+  "84815190": {
+   "name": "Baronne de Fleur",
+   "roles": [
+    {
+     "zone": "mzone",
+     "cls": "stop",
+     "cond": "negates anything once"
+    }
+   ],
+   "conf": "high"
+  },
+  "85976588": {
+   "name": "Elfnote Fortuna",
+   "roles": [
+    {
+     "zone": "mzone",
+     "cls": "stop",
+     "cond": "opponent's turn: swap; bounce 1 face-up spell/trap"
+    }
+   ],
+   "conf": "high"
+  },
+  "87052196": {
+   "name": "Tenyi Spirit - Ashuna",
+   "roles": [
+    {
+     "zone": "hand",
+     "cls": "check",
+     "cond": "you control a face-up non-effect monster; special summon a Tenyi from the deck"
+    },
+    {
+     "zone": "grave",
+     "cls": "check",
+     "cond": "same as above"
+    }
+   ],
+   "conf": "high"
+  },
+  "88170262": {
+   "name": "Kewl Tune Remix",
+   "roles": [
+    {
+     "zone": "mzone",
+     "cls": "check",
+     "cond": "opponent's turn: tribute -> revive two tuners"
+    }
+   ],
+   "conf": "high"
+  },
+  "90829280": {
+   "name": "Spirit of Yubel",
+   "roles": [
+    {
+     "zone": "hand",
+     "cls": "check",
+     "cond": "special summons itself at the opponent's attack declaration"
+    }
+   ],
+   "conf": "high"
+  },
+  "91800273": {
+   "name": "Dimension Shifter",
+   "roles": [
+    {
+     "zone": "hand",
+     "cls": "check",
+     "cond": "no cards in your graveyard; everything is banished instead"
+    }
+   ],
+   "conf": "high"
+  },
+  "92422871": {
+   "name": "Cyberse Desavewurm",
+   "roles": [
+    {
+     "zone": "mzone",
+     "cls": "stop",
+     "cond": "you control a Link-4 Cyberse; negate a spell/trap activation"
+    },
+    {
+     "zone": "grave",
+     "cls": "stop",
+     "cond": "same as above; activated by banishing it from the graveyard"
+    }
+   ],
+   "conf": "high"
+  },
+  "92714517": {
+   "name": "Big Welcome Labrynth",
+   "roles": [
+    {
+     "zone": "szone_set",
+     "cls": "check",
+     "cond": "brings out a Labrynth monster on the opponent's turn + bounces your own monster"
+    }
+   ],
+   "conf": "high"
+  },
+  "93039339": {
+   "name": "Super Starslayer TY-PHON - Sky Crisis",
+   "roles": [
+    {
+     "zone": "mzone",
+     "cls": "check",
+     "cond": "locks effects of monsters with 3000+ ATK"
+    },
+    {
+     "zone": "mzone",
+     "cls": "stop",
+     "cond": "detach material to bounce 1; speed to be checked on the corpus"
+    }
+   ],
+   "conf": "review"
+  },
+  "93453053": {
+   "name": "Maliss in the Mirror",
+   "roles": [
+    {
+     "zone": "szone_set",
+     "cls": "stop",
+     "cond": "banish a Maliss card; negate 1 monster's effects"
+    }
+   ],
+   "conf": "high"
+  },
+  "93860227": {
+   "name": "Necroquip Princess",
+   "roles": [
+    {
+     "zone": "mzone",
+     "cls": "check",
+     "cond": "equips / draws when the opponent sends from the hand to the graveyard to activate"
+    }
+   ],
+   "conf": "review"
+  },
+  "94145021": {
+   "name": "Droll & Lock Bird",
+   "roles": [
+    {
+     "zone": "hand",
+     "cls": "stop",
+     "cond": "when the opponent adds from the deck to the hand; locks searches this turn"
+    }
+   ],
+   "conf": "high"
+  },
+  "94722358": {
+   "name": "Maliss <C> MTP-07",
+   "roles": [
+    {
+     "zone": "szone_set",
+     "cls": "check",
+     "cond": "search a Maliss + may banish 1 card"
+    }
+   ],
+   "conf": "high"
+  },
+  "95515789": {
+   "name": "Blazing Cartesia, the Virtuous",
+   "roles": [
+    {
+     "zone": "mzone",
+     "cls": "check",
+     "cond": "fusion summons in either Main Phase"
+    }
+   ],
+   "conf": "high"
+  },
+  "96633955": {
+   "name": "Swordsoul Supreme Sovereign - Chengying",
+   "roles": [
+    {
+     "zone": "mzone",
+     "cls": "stop",
+     "cond": "when a card is banished; banish 1 each from the opponent's field and graveyard"
+    }
+   ],
+   "conf": "high"
+  },
+  "97045737": {
+   "name": "Dominus Purge",
+   "roles": [
+    {
+     "zone": "szone_set",
+     "cls": "stop",
+     "cond": "negates search activations"
+    },
+    {
+     "zone": "hand",
+     "cls": "stop",
+     "cond": "can be activated from the hand while the opponent controls a card"
+    }
+   ],
+   "conf": "high"
+  },
+  "97268402": {
+   "name": "Effect Veiler",
+   "roles": [
+    {
+     "zone": "hand",
+     "cls": "stop",
+     "cond": "opponent's Main Phase; negate a monster effect"
+    }
+   ],
+   "conf": "high"
+  },
+  "98338152": {
+   "name": "Sky Striker Mecha - Widow Anchor",
+   "roles": [
+    {
+     "zone": "szone_set",
+     "cls": "stop",
+     "cond": "no monsters in your Main Monster Zones; negate + take control"
+    }
+   ],
+   "conf": "high"
+  },
+  "98829635": {
+   "name": "Forbidden Crown",
+   "roles": [
+    {
+     "zone": "szone_set",
+     "cls": "stop",
+     "cond": "fully neutralizes 1 monster"
+    }
+   ],
+   "conf": "high"
+  },
+  "99989863": {
+   "name": "Fiendsmith in Paradise",
+   "roles": [
+    {
+     "zone": "szone_set",
+     "cls": "stop",
+     "cond": "you control a specific Level 7 monster; clear the field"
+    },
+    {
+     "zone": "grave",
+     "cls": "check",
+     "cond": "sends a Fiendsmith from the deck when the opponent special summons"
+    }
+   ],
+   "conf": "review"
+  },
+  "69248256": {
+   "name": "Swordsoul Grandmaster - Chixiao",
+   "roles": [
+    {
+     "zone": "mzone",
+     "cls": "stop",
+     "cond": "either turn; banish a Swordsoul from hand / graveyard -> negate 1 face-up monster's effects"
+    }
+   ],
+   "conf": "high"
+  },
+  "28803166": {
+   "name": "Lacrima the Crimson Tears",
+   "roles": [
+    {
+     "zone": "grave",
+     "cls": "check",
+     "cond": "graveyard effect on the opponent's turn"
+    }
+   ],
+   "conf": "high"
+  },
+  "74018812": {
+   "name": "Labrynth Stovie Torbie",
+   "roles": [
+    {
+     "zone": "hand",
+     "cls": "check",
+     "cond": "either turn: send to graveyard -> set a Labrynth spell/trap"
+    },
+    {
+     "zone": "mzone",
+     "cls": "check",
+     "cond": "same as above"
+    },
+    {
+     "zone": "grave",
+     "cls": "check"
+    }
+   ],
+   "conf": "review"
+  },
+  "37629703": {
+   "name": "Labrynth Chandraglier",
+   "roles": [
+    {
+     "zone": "hand",
+     "cls": "check",
+     "cond": "either turn: send to graveyard -> set a Labrynth spell/trap"
+    },
+    {
+     "zone": "mzone",
+     "cls": "check",
+     "cond": "same as above"
+    },
+    {
+     "zone": "grave",
+     "cls": "check"
+    }
+   ],
+   "conf": "review"
+  },
+  "2463794": {
+   "name": "Fiendsmith's Requiem",
+   "roles": [
+    {
+     "zone": "mzone",
+     "cls": "check",
+     "cond": "either Main Phase: tribute -> bring out a Fiendsmith"
+    }
+   ],
+   "conf": "high"
+  },
+  "2511": {
+   "name": "Labrynth Cooclock",
+   "roles": [
+    {
+     "zone": "hand",
+     "cls": "check",
+     "cond": "lets a normal trap set this turn be activated"
+    }
+   ],
+   "conf": "high"
+  },
+  "29948294": {
+   "name": "Branded in High Spirits",
+   "roles": [
+    {
+     "zone": "szone_set",
+     "cls": "check",
+     "cond": "after being set, quickly provides fusion materials on the opponent's turn"
+    }
+   ],
+   "conf": "review"
+  },
+  "73819701": {
+   "name": "Fallen of the White Dragon",
+   "roles": [
+    {
+     "zone": "hand",
+     "cls": "check",
+     "cond": "realized 0.15 per game; clause to be read closely"
+    }
+   ],
+   "conf": "review"
+  }
+ },
+ "no_role": [
+  821049,
+  1225009,
+  1984618,
+  3410461,
+  3723262,
+  3739500,
+  7511613,
+  8491308,
+  8633261,
+  9464441,
+  9763474,
+  10266279,
+  10389142,
+  11398059,
+  13048472,
+  13332685,
+  14442329,
+  15982593,
+  16387555,
+  16509007,
+  17209452,
+  18176525,
+  19304410,
+  20001443,
+  20508881,
+  21887175,
+  21915012,
+  22423493,
+  22850702,
+  24461358,
+  25311006,
+  25661743,
+  26096328,
+  27439792,
+  30118811,
+  30342076,
+  31114334,
+  31149212,
+  31480215,
+  32061192,
+  32519092,
+  32530043,
+  32807846,
+  33158448,
+  34022970,
+  34447918,
+  35261759,
+  35844557,
+  36709484,
+  37279096,
+  37351133,
+  39576656,
+  40543231,
+  41373230,
+  41458361,
+  42632209,
+  42781164,
+  43202238,
+  44097050,
+  44362883,
+  45171524,
+  45852939,
+  45883110,
+  46947713,
+  49036338,
+  49238328,
+  49721684,
+  52340444,
+  52687916,
+  52698008,
+  56465981,
+  56495147,
+  56910167,
+  59859086,
+  60303245,
+  60303688,
+  60465049,
+  60764609,
+  62962630,
+  63013339,
+  63166095,
+  63288573,
+  64491754,
+  65261141,
+  66011101,
+  67886895,
+  68337209,
+  68431965,
+  68468459,
+  69272449,
+  69540484,
+  70368879,
+  70488851,
+  70534340,
+  71607202,
+  71818935,
+  71832012,
+  72090076,
+  72578374,
+  73580471,
+  73628505,
+  74586817,
+  75147529,
+  75500286,
+  75730490,
+  76666602,
+  78917791,
+  80312545,
+  81034083,
+  81560239,
+  82782870,
+  83755611,
+  84211599,
+  85106525,
+  87746184,
+  89392810,
+  90673288,
+  90875418,
+  90953320,
+  93084621,
+  93490856,
+  93729896,
+  93850690,
+  94259633,
+  95454996,
+  95474755,
+  96676583,
+  97474300,
+  97556336,
+  97651498,
+  98159737,
+  98462037,
+  98567237,
+  99243014
+ ]
+}

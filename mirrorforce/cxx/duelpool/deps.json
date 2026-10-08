@@ -1,0 +1,15 @@
+{
+  "schema": "mirrorforce_duelpool_build_deps/v1",
+  "note": "Private snapshots under the --deps directory; each tree digest is SHA-256 over 'relative path NUL sha256(content) newline' of its files in path order.",
+  "deps": {
+    "concurrentqueue-include": "7a947af99724df28ce3ac11feac50dfd680389c5f089746da645d66889cfee10",
+    "fmt-10.2.1-include": "603f7d92334af8b1a31a9bdf9b0337fd67b08766530fc31200064bcc92502250",
+    "lua-5.3-include": "448018fbdd99d985da3c001c0a3771b0c7b44ae1ea7cb42093765a8bf28c2d4a",
+    "lua-5.3-lib": "b51972b6b311b233d3eecffa9d64b139e7ae6f0d913f46015809ba5c0c0b03dc",
+    "pybind11-2.13.6/pybind11/include": "748c476646aae311469f15d2594cfdb2eb7d624d888a7c9b09f03c97969d1389",
+    "python3.11.13-include": "20951beb3d431e530a70708f9dc55198db37f6851f66df1922f5cfb6310b08ae",
+    "sqlite-amalgamation-3.45.1": "599a03183fac211ca2c10ed6b94c7f9cf7630e005510bf9a8bae3a6e70b571a8",
+    "SQLiteCpp-3.3.3": "834393a3bbd45f9f92b02ebc1eaa0da4d5061fb7f52a4ff54e8149b833a69971",
+    "unordered_dense-include": "14276d5251efb155f4f24242a28184e4024e8599942e71dfa9ea06b695b296dd"
+  }
+}

@@ -1,0 +1,1201 @@
+{
+ "schema": "mirrorforce_specialization_scene_registry/v1",
+ "deck": "decks/stage-a/SkyStriker.ydk",
+ "description": "The tactical scenes of the targeted training that preceded A0 iteration 1000's continuation: one scripted demonstration per scene; split 'train' teaches, 'heldout' validates.",
+ "scenes": [
+  {
+   "family": "backrow_timing",
+   "split": "heldout",
+   "seed": 2026121001,
+   "start_lp": 8000,
+   "defenses": [
+    98338152,
+    84749824
+   ],
+   "spares": [
+    14558127,
+    23434538
+   ],
+   "first_draw": 59438930,
+   "threat": true,
+   "decisions": 38,
+   "tape_sha256": "d03a388bed3154aba9d9178126177680b5eabbcce9fb6646eb8cf2ae6bbd0a94"
+  },
+  {
+   "family": "backrow_timing",
+   "split": "heldout",
+   "seed": 2026121002,
+   "start_lp": 8000,
+   "defenses": [
+    98338152,
+    84749824
+   ],
+   "spares": [
+    14558127,
+    97268402
+   ],
+   "first_draw": 59438930,
+   "threat": true,
+   "decisions": 28,
+   "tape_sha256": "2363be4dd26b99879c589541cea16c3962d88fc0b6cff2bdba584dd3b369c4da"
+  },
+  {
+   "family": "backrow_timing",
+   "split": "heldout",
+   "seed": 2026121003,
+   "start_lp": 8000,
+   "defenses": [
+    98338152,
+    84749824
+   ],
+   "spares": [
+    14558127,
+    59438930
+   ],
+   "first_draw": 97268402,
+   "threat": true,
+   "decisions": 28,
+   "tape_sha256": "a24d668820b79e4fa4fb20c826dcc80354e617710b282a47b128eedb2a78523b"
+  },
+  {
+   "family": "backrow_timing",
+   "split": "heldout",
+   "seed": 2026121004,
+   "start_lp": 8000,
+   "defenses": [
+    98338152,
+    84749824
+   ],
+   "spares": [
+    23434538,
+    97268402
+   ],
+   "first_draw": 59438930,
+   "threat": true,
+   "decisions": 38,
+   "tape_sha256": "9562c1c5d6951c7deda1a3e4afaa0a59edb7f3dc6546903b685de4f5bb690a6f"
+  },
+  {
+   "family": "backrow_timing",
+   "split": "heldout",
+   "seed": 2026121005,
+   "start_lp": 8000,
+   "defenses": [
+    98338152,
+    84749824
+   ],
+   "spares": [
+    23434538,
+    59438930
+   ],
+   "first_draw": 97268402,
+   "threat": true,
+   "decisions": 38,
+   "tape_sha256": "c73e3d074a4cf7ae2c5134d1442e1c4e4b4f6045d88d04b89a490a391658ef4c"
+  },
+  {
+   "family": "backrow_timing",
+   "split": "heldout",
+   "seed": 2026121006,
+   "start_lp": 8000,
+   "defenses": [
+    98338152,
+    84749824
+   ],
+   "spares": [
+    97268402,
+    59438930
+   ],
+   "first_draw": 23434538,
+   "threat": true,
+   "decisions": 33,
+   "tape_sha256": "b95cc238a36c5803affd193a0fab64f5714e22911361506938a03a782e3118a1"
+  },
+  {
+   "family": "backrow_timing",
+   "split": "heldout",
+   "seed": 2026121007,
+   "start_lp": 8000,
+   "defenses": [
+    98338152,
+    41420027
+   ],
+   "spares": [
+    14558127,
+    23434538
+   ],
+   "first_draw": 59438930,
+   "threat": true,
+   "decisions": 38,
+   "tape_sha256": "a559d5655b8872935d94037ff27148463d1d774965e645bb14f9c49e5fac4bfb"
+  },
+  {
+   "family": "backrow_timing",
+   "split": "heldout",
+   "seed": 2026121008,
+   "start_lp": 8000,
+   "defenses": [
+    98338152,
+    41420027
+   ],
+   "spares": [
+    14558127,
+    97268402
+   ],
+   "first_draw": 59438930,
+   "threat": true,
+   "decisions": 28,
+   "tape_sha256": "74987f22420af497557ca11328bf7c3cff2622481f58a82ef08481a605ee5700"
+  },
+  {
+   "family": "backrow_timing",
+   "split": "heldout",
+   "seed": 2026121009,
+   "start_lp": 8000,
+   "defenses": [
+    98338152,
+    41420027
+   ],
+   "spares": [
+    14558127,
+    59438930
+   ],
+   "first_draw": 97268402,
+   "threat": true,
+   "decisions": 28,
+   "tape_sha256": "fa06825f0a17d69104799afb0f82c417ed280b0ec647c34fb24674bf6dacd790"
+  },
+  {
+   "family": "backrow_timing",
+   "split": "heldout",
+   "seed": 2026121010,
+   "start_lp": 8000,
+   "defenses": [
+    98338152,
+    41420027
+   ],
+   "spares": [
+    23434538,
+    97268402
+   ],
+   "first_draw": 59438930,
+   "threat": true,
+   "decisions": 38,
+   "tape_sha256": "b4a88653d4848027ec2af06305083bbcf5867c1307541066d224f6f75bbca15e"
+  },
+  {
+   "family": "backrow_timing",
+   "split": "heldout",
+   "seed": 2026121011,
+   "start_lp": 8000,
+   "defenses": [
+    98338152,
+    41420027
+   ],
+   "spares": [
+    23434538,
+    59438930
+   ],
+   "first_draw": 97268402,
+   "threat": true,
+   "decisions": 38,
+   "tape_sha256": "e0eabc0521f3f62d1b432f90e79fb3d8fc3b0da4fb9efa8252477b1fb1a6c554"
+  },
+  {
+   "family": "backrow_timing",
+   "split": "heldout",
+   "seed": 2026121012,
+   "start_lp": 8000,
+   "defenses": [
+    98338152,
+    41420027
+   ],
+   "spares": [
+    97268402,
+    59438930
+   ],
+   "first_draw": 23434538,
+   "threat": true,
+   "decisions": 33,
+   "tape_sha256": "99d354759a807f82419bf18d33404ce928c304f135b4e83cdd84a82e49206dcc"
+  },
+  {
+   "family": "backrow_timing",
+   "split": "heldout",
+   "seed": 2026121013,
+   "start_lp": 8000,
+   "defenses": [
+    98338152,
+    98338152
+   ],
+   "spares": [
+    14558127,
+    23434538
+   ],
+   "first_draw": 59438930,
+   "threat": true,
+   "decisions": 38,
+   "tape_sha256": "fba87b2e0acb37fa2f19127962bdf9666ebf6f3086116aafd80cf7d1ee629cd6"
+  },
+  {
+   "family": "backrow_timing",
+   "split": "heldout",
+   "seed": 2026121014,
+   "start_lp": 8000,
+   "defenses": [
+    98338152,
+    98338152
+   ],
+   "spares": [
+    14558127,
+    97268402
+   ],
+   "first_draw": 59438930,
+   "threat": true,
+   "decisions": 29,
+   "tape_sha256": "241c286f8ff05df3d0434d7f2edbcfb1fb7dfea115aab43393588bed4821a6da"
+  },
+  {
+   "family": "backrow_timing",
+   "split": "heldout",
+   "seed": 2026121015,
+   "start_lp": 8000,
+   "defenses": [
+    98338152,
+    98338152
+   ],
+   "spares": [
+    14558127,
+    59438930
+   ],
+   "first_draw": 97268402,
+   "threat": true,
+   "decisions": 29,
+   "tape_sha256": "a4ce2e447de98840b258646ff23cf1d97a7e10ed9aa86282c649552824c71b5d"
+  },
+  {
+   "family": "backrow_timing",
+   "split": "heldout",
+   "seed": 2026121016,
+   "start_lp": 8000,
+   "defenses": [
+    98338152,
+    98338152
+   ],
+   "spares": [
+    23434538,
+    97268402
+   ],
+   "first_draw": 59438930,
+   "threat": true,
+   "decisions": 38,
+   "tape_sha256": "b1e42105cba0f1f570d1bacd47ed0cc245b84343cda8747eb5d45c8f28a3aca0"
+  },
+  {
+   "family": "backrow_timing",
+   "split": "heldout",
+   "seed": 2026121017,
+   "start_lp": 8000,
+   "defenses": [
+    98338152,
+    98338152
+   ],
+   "spares": [
+    23434538,
+    59438930
+   ],
+   "first_draw": 97268402,
+   "threat": true,
+   "decisions": 38,
+   "tape_sha256": "5f9d2078316e4d1d4fcb16cc631409d91d40270fffe6dbaf19cbd05c20822e1b"
+  },
+  {
+   "family": "backrow_timing",
+   "split": "heldout",
+   "seed": 2026121018,
+   "start_lp": 8000,
+   "defenses": [
+    98338152,
+    98338152
+   ],
+   "spares": [
+    97268402,
+    59438930
+   ],
+   "first_draw": 23434538,
+   "threat": true,
+   "decisions": 33,
+   "tape_sha256": "d1f800cdb4b49a1f974cf1526c05c64d99661000e989cca27cd33b01e440cfae"
+  },
+  {
+   "family": "backrow_timing",
+   "split": "train",
+   "seed": 2026120001,
+   "start_lp": 8000,
+   "defenses": [
+    98338152,
+    84749824
+   ],
+   "spares": [
+    14558127,
+    23434538
+   ],
+   "first_draw": 97268402,
+   "threat": true,
+   "decisions": 38,
+   "tape_sha256": "de7d45e31af95584f7b1340d49767812eedd0f0c6bbc01874f0681436393cc6b"
+  },
+  {
+   "family": "backrow_timing",
+   "split": "train",
+   "seed": 2026120002,
+   "start_lp": 8000,
+   "defenses": [
+    98338152,
+    84749824
+   ],
+   "spares": [
+    14558127,
+    97268402
+   ],
+   "first_draw": 23434538,
+   "threat": true,
+   "decisions": 33,
+   "tape_sha256": "20a51c4feee5f3a49cd321526b65fe81fea72fd995d11136ba261fd1082beb46"
+  },
+  {
+   "family": "backrow_timing",
+   "split": "train",
+   "seed": 2026120003,
+   "start_lp": 8000,
+   "defenses": [
+    98338152,
+    84749824
+   ],
+   "spares": [
+    14558127,
+    59438930
+   ],
+   "first_draw": 23434538,
+   "threat": true,
+   "decisions": 33,
+   "tape_sha256": "f1e9b7b86da198b9c13231a4739a4c38bb77fa07c6d103e7c64daedc3a83281c"
+  },
+  {
+   "family": "backrow_timing",
+   "split": "train",
+   "seed": 2026120004,
+   "start_lp": 8000,
+   "defenses": [
+    98338152,
+    84749824
+   ],
+   "spares": [
+    23434538,
+    97268402
+   ],
+   "first_draw": 14558127,
+   "threat": true,
+   "decisions": 38,
+   "tape_sha256": "af555d3d236f9aa90310bcf5d660028e2885c4562f3c53a30415ad2332df45e6"
+  },
+  {
+   "family": "backrow_timing",
+   "split": "train",
+   "seed": 2026120005,
+   "start_lp": 8000,
+   "defenses": [
+    98338152,
+    84749824
+   ],
+   "spares": [
+    23434538,
+    59438930
+   ],
+   "first_draw": 14558127,
+   "threat": true,
+   "decisions": 38,
+   "tape_sha256": "abda8fe2fc5f0a978901e8b5e89cd8f933411ce91ffd36d8e69fc7d6e60f4006"
+  },
+  {
+   "family": "backrow_timing",
+   "split": "train",
+   "seed": 2026120006,
+   "start_lp": 8000,
+   "defenses": [
+    98338152,
+    84749824
+   ],
+   "spares": [
+    97268402,
+    59438930
+   ],
+   "first_draw": 14558127,
+   "threat": true,
+   "decisions": 28,
+   "tape_sha256": "53455cd0c97f161e3e45f0947cfb0ff556df84b848a00a2872cc7917e8c51e2d"
+  },
+  {
+   "family": "backrow_timing",
+   "split": "train",
+   "seed": 2026120007,
+   "start_lp": 8000,
+   "defenses": [
+    98338152,
+    41420027
+   ],
+   "spares": [
+    14558127,
+    23434538
+   ],
+   "first_draw": 97268402,
+   "threat": true,
+   "decisions": 38,
+   "tape_sha256": "1f7a73e7618e93b97a0d709ac5847d4b14568e186861cd28780ddfcf5dcabe40"
+  },
+  {
+   "family": "backrow_timing",
+   "split": "train",
+   "seed": 2026120008,
+   "start_lp": 8000,
+   "defenses": [
+    98338152,
+    41420027
+   ],
+   "spares": [
+    14558127,
+    97268402
+   ],
+   "first_draw": 23434538,
+   "threat": true,
+   "decisions": 33,
+   "tape_sha256": "ce11ea1bb3616ec6c6f3bed68799b091219ec759e6c55bc5a99092801e0e9f77"
+  },
+  {
+   "family": "backrow_timing",
+   "split": "train",
+   "seed": 2026120009,
+   "start_lp": 8000,
+   "defenses": [
+    98338152,
+    41420027
+   ],
+   "spares": [
+    14558127,
+    59438930
+   ],
+   "first_draw": 23434538,
+   "threat": true,
+   "decisions": 33,
+   "tape_sha256": "476e42f2685affd1a0d0d14d0c90932ccc6a495fc5b1f000944eb335ac9a87e6"
+  },
+  {
+   "family": "backrow_timing",
+   "split": "train",
+   "seed": 2026120010,
+   "start_lp": 8000,
+   "defenses": [
+    98338152,
+    41420027
+   ],
+   "spares": [
+    23434538,
+    97268402
+   ],
+   "first_draw": 14558127,
+   "threat": true,
+   "decisions": 38,
+   "tape_sha256": "c115589178ee141a2852139a331417579c3289d873c1e1bb1800841f67c0f026"
+  },
+  {
+   "family": "backrow_timing",
+   "split": "train",
+   "seed": 2026120011,
+   "start_lp": 8000,
+   "defenses": [
+    98338152,
+    41420027
+   ],
+   "spares": [
+    23434538,
+    59438930
+   ],
+   "first_draw": 14558127,
+   "threat": true,
+   "decisions": 38,
+   "tape_sha256": "86bb833e04ec06fe3432374aa36b05e0d89d6e475b78d75d7b5a557d84ca416e"
+  },
+  {
+   "family": "backrow_timing",
+   "split": "train",
+   "seed": 2026120012,
+   "start_lp": 8000,
+   "defenses": [
+    98338152,
+    41420027
+   ],
+   "spares": [
+    97268402,
+    59438930
+   ],
+   "first_draw": 14558127,
+   "threat": true,
+   "decisions": 28,
+   "tape_sha256": "f9cc58842dfaee4aa37d44f413190e6deeed1000c0f4f0124c784786bbddbd5e"
+  },
+  {
+   "family": "backrow_timing",
+   "split": "train",
+   "seed": 2026120013,
+   "start_lp": 8000,
+   "defenses": [
+    98338152,
+    98338152
+   ],
+   "spares": [
+    14558127,
+    23434538
+   ],
+   "first_draw": 97268402,
+   "threat": true,
+   "decisions": 38,
+   "tape_sha256": "e5090fda5a730770fbc9877cc232b47ca4cafe69e9b20cfe61e24b985b769267"
+  },
+  {
+   "family": "backrow_timing",
+   "split": "train",
+   "seed": 2026120014,
+   "start_lp": 8000,
+   "defenses": [
+    98338152,
+    98338152
+   ],
+   "spares": [
+    14558127,
+    97268402
+   ],
+   "first_draw": 23434538,
+   "threat": true,
+   "decisions": 33,
+   "tape_sha256": "d4b0f7c14d28ee922832d8f766fecbe14eadfd782b6f8ae0cae5d34c98359b81"
+  },
+  {
+   "family": "backrow_timing",
+   "split": "train",
+   "seed": 2026120015,
+   "start_lp": 8000,
+   "defenses": [
+    98338152,
+    98338152
+   ],
+   "spares": [
+    14558127,
+    59438930
+   ],
+   "first_draw": 23434538,
+   "threat": true,
+   "decisions": 33,
+   "tape_sha256": "21c6c95dadeda1b66cb71050a15a06af24a73f41990543f690eea3c336ffeb78"
+  },
+  {
+   "family": "backrow_timing",
+   "split": "train",
+   "seed": 2026120016,
+   "start_lp": 8000,
+   "defenses": [
+    98338152,
+    98338152
+   ],
+   "spares": [
+    23434538,
+    97268402
+   ],
+   "first_draw": 14558127,
+   "threat": true,
+   "decisions": 38,
+   "tape_sha256": "f7a386124514f8a5b08db7c551793f7069b8f090cb376c84aea100cde851cd75"
+  },
+  {
+   "family": "backrow_timing",
+   "split": "train",
+   "seed": 2026120017,
+   "start_lp": 8000,
+   "defenses": [
+    98338152,
+    98338152
+   ],
+   "spares": [
+    23434538,
+    59438930
+   ],
+   "first_draw": 14558127,
+   "threat": true,
+   "decisions": 38,
+   "tape_sha256": "472b40774f8189a2f82e5e0edd523ce1470fda78aeee96e8b56dfac43e91f637"
+  },
+  {
+   "family": "backrow_timing",
+   "split": "train",
+   "seed": 2026120018,
+   "start_lp": 8000,
+   "defenses": [
+    98338152,
+    98338152
+   ],
+   "spares": [
+    97268402,
+    59438930
+   ],
+   "first_draw": 14558127,
+   "threat": true,
+   "decisions": 29,
+   "tape_sha256": "5e10632a2fbed204c0bc5bfac26d5bc771c6371dfe8b59c1661bad512c458e5c"
+  },
+  {
+   "family": "bomber",
+   "split": "heldout",
+   "seed": 2026112021,
+   "start_lp": 1400,
+   "decisions": 25,
+   "tape_sha256": "9b4c1043742ff977c3ba42d60815b1e2b2e24138124c81e296582333f5d4c0cb"
+  },
+  {
+   "family": "bomber",
+   "split": "heldout",
+   "seed": 2026112022,
+   "start_lp": 1100,
+   "decisions": 25,
+   "tape_sha256": "0bd1e9de335e0275cbb9b150d3f0b4971b833062e45300e4e97e47785dd888de"
+  },
+  {
+   "family": "bomber",
+   "split": "heldout",
+   "seed": 2026114101,
+   "start_lp": 1375,
+   "finish_turn": false,
+   "decisions": 25,
+   "tape_sha256": "0cf8299beaced5e8b39ab21beb235dcd9a37fe89b867e9c586639e654ec8346f"
+  },
+  {
+   "family": "bomber",
+   "split": "heldout",
+   "seed": 2026114102,
+   "start_lp": 1125,
+   "finish_turn": false,
+   "decisions": 26,
+   "tape_sha256": "01428447661feca954e2c82ff43e5d0813d0ed9236ce76421ced8c182e73e86a"
+  },
+  {
+   "family": "bomber",
+   "split": "train",
+   "seed": 2026113101,
+   "start_lp": 1500,
+   "finish_turn": false,
+   "decisions": 25,
+   "tape_sha256": "8f5c152c03b5a8f151dc01e0da6be95ec3d0099c2e99f290cbc73a2e3c1768c4"
+  },
+  {
+   "family": "bomber",
+   "split": "train",
+   "seed": 2026113102,
+   "start_lp": 1400,
+   "finish_turn": false,
+   "decisions": 25,
+   "tape_sha256": "a00c4bfb0c9d19bf3c3bc45f7e4d06b1a5178c1f7e6b948271df99b1efe8ffaa"
+  },
+  {
+   "family": "bomber",
+   "split": "train",
+   "seed": 2026113103,
+   "start_lp": 1300,
+   "finish_turn": false,
+   "decisions": 30,
+   "tape_sha256": "f070b37c366ee81f822e52f9042f2944223ffd3ca4a79e740a897d25b1035d95"
+  },
+  {
+   "family": "bomber",
+   "split": "train",
+   "seed": 2026113104,
+   "start_lp": 1200,
+   "finish_turn": false,
+   "decisions": 37,
+   "tape_sha256": "c94defe645e53185492c9b83d25a20ab68dba344b4adc7a7f5e5988bc5fce2d4"
+  },
+  {
+   "family": "bomber",
+   "split": "train",
+   "seed": 2026113105,
+   "start_lp": 1100,
+   "finish_turn": false,
+   "decisions": 25,
+   "tape_sha256": "4b998eb6fc72f657f01877b71b1aface0a74761d74374edbb582715a4ddefb88"
+  },
+  {
+   "family": "bomber",
+   "split": "train",
+   "seed": 2026113106,
+   "start_lp": 1000,
+   "finish_turn": false,
+   "decisions": 25,
+   "tape_sha256": "188c28d482e524f034477e94d5f031d97a2702fbf67e4350ae544c9e4924c77b"
+  },
+  {
+   "family": "bomber",
+   "split": "train",
+   "seed": 2026113107,
+   "start_lp": 900,
+   "finish_turn": false,
+   "decisions": 27,
+   "tape_sha256": "e2dd21be6f6e9bc9bb202260fbddaccd2d643c927e9425c6f729f9d086b9a4bd"
+  },
+  {
+   "family": "bomber",
+   "split": "train",
+   "seed": 2026113108,
+   "start_lp": 800,
+   "finish_turn": false,
+   "decisions": 25,
+   "tape_sha256": "99553f5896c87dcd72a0fd03df31f1f9a45c3a86fb7ada27add5a5246e9cb3ca"
+  },
+  {
+   "family": "bomber",
+   "split": "train",
+   "seed": 2026113109,
+   "start_lp": 1450,
+   "finish_turn": false,
+   "decisions": 25,
+   "tape_sha256": "c7e4cb82ca79ff79f2f0f62aa6e7c5eea000feb715ee20759af31b64e366bc67"
+  },
+  {
+   "family": "bomber",
+   "split": "train",
+   "seed": 2026113110,
+   "start_lp": 1350,
+   "finish_turn": false,
+   "decisions": 30,
+   "tape_sha256": "4cfd0d48ad9712e6898ca5adb996329cf83e47c0f877737b12f12d5c63c6499d"
+  },
+  {
+   "family": "bomber",
+   "split": "train",
+   "seed": 2026113111,
+   "start_lp": 1250,
+   "finish_turn": false,
+   "decisions": 25,
+   "tape_sha256": "e918e9cfc8b326f7a04a2ea43d49da64de8bdcbdb11049a7ec23cdeacab74be0"
+  },
+  {
+   "family": "bomber",
+   "split": "train",
+   "seed": 2026113112,
+   "start_lp": 1050,
+   "finish_turn": false,
+   "decisions": 25,
+   "tape_sha256": "c7c097302545bc76f3191fd0573ca8ce264c8335de6341b95ff54942b14d4d8e"
+  },
+  {
+   "family": "bomber",
+   "variant": "linked_clear",
+   "split": "heldout",
+   "seed": 2026118001,
+   "start_lp": 2550,
+   "trigger_resources": true,
+   "decisions": 34,
+   "tape_sha256": "79774b624cad5e9e23861d886a93e3507ca59e10dc018924fe4c0b148a70f779"
+  },
+  {
+   "family": "bomber",
+   "variant": "linked_clear",
+   "split": "heldout",
+   "seed": 2026118002,
+   "start_lp": 2800,
+   "trigger_resources": true,
+   "decisions": 34,
+   "tape_sha256": "34de0aa6bee6e3ef5cfa531918d852ede111c348508dedb656de5b6af6bac918"
+  },
+  {
+   "family": "bomber",
+   "variant": "linked_clear",
+   "split": "heldout",
+   "seed": 2026118003,
+   "start_lp": 2875,
+   "trigger_resources": true,
+   "decisions": 34,
+   "tape_sha256": "c71ad9506fcaa90bdfc3192f355142aa932e2a7610eb365997601390934c4286"
+  },
+  {
+   "family": "bomber",
+   "variant": "linked_clear",
+   "split": "heldout",
+   "seed": 2026118004,
+   "start_lp": 2975,
+   "trigger_resources": true,
+   "decisions": 54,
+   "tape_sha256": "70800f041a02d6127f0f987496a8eda1ccdd48545882778d3535f01a04f62b2f"
+  },
+  {
+   "family": "bomber",
+   "variant": "linked_clear",
+   "split": "train",
+   "seed": 2026117001,
+   "start_lp": 2500,
+   "trigger_resources": true,
+   "decisions": 47,
+   "tape_sha256": "2e35930e8598ffce3e6aa732f7cbeea9d05ba48931b32fb474814bc4de308385"
+  },
+  {
+   "family": "bomber",
+   "variant": "linked_clear",
+   "split": "train",
+   "seed": 2026117002,
+   "start_lp": 2750,
+   "trigger_resources": true,
+   "decisions": 34,
+   "tape_sha256": "ec91460a937e6807b525f02aed785dec25e8ebe73da3c5c665f8d99f98ef60b2"
+  },
+  {
+   "family": "bomber",
+   "variant": "linked_clear",
+   "split": "train",
+   "seed": 2026117003,
+   "start_lp": 3000,
+   "trigger_resources": true,
+   "decisions": 47,
+   "tape_sha256": "a12dff875bb53a2ce21302a833cdcb60096a8c55068591d79cf94d5bccb752ea"
+  },
+  {
+   "family": "bomber",
+   "variant": "linked_clear",
+   "split": "train",
+   "seed": 2026117004,
+   "start_lp": 2600,
+   "trigger_resources": true,
+   "decisions": 54,
+   "tape_sha256": "75bf2253af7a21845522707fcd66844844553dbda5e3c8de7ce5bfcebec3f59e"
+  },
+  {
+   "family": "bomber",
+   "variant": "linked_clear",
+   "split": "train",
+   "seed": 2026117005,
+   "start_lp": 2850,
+   "trigger_resources": true,
+   "decisions": 46,
+   "tape_sha256": "c23ee1b84594758ff4c6a1737fc448cd58490c523f49a4ecd734d858c91e9250"
+  },
+  {
+   "family": "bomber",
+   "variant": "linked_clear",
+   "split": "train",
+   "seed": 2026117006,
+   "start_lp": 2950,
+   "trigger_resources": true,
+   "decisions": 34,
+   "tape_sha256": "32eddeaae4207395dbf4f1ed3bddf2328be1d1a736f031be585c79b3f5e5aa8d"
+  },
+  {
+   "family": "bomber",
+   "variant": "linked_clear",
+   "split": "train",
+   "seed": 2026117007,
+   "start_lp": 2700,
+   "trigger_resources": true,
+   "decisions": 34,
+   "tape_sha256": "d4a4a4d09e74e2209f54365c7fa2d5fa3d2d0d282172a15b31a088c04b43f7ed"
+  },
+  {
+   "family": "bomber",
+   "variant": "linked_clear",
+   "split": "train",
+   "seed": 2026117008,
+   "start_lp": 2900,
+   "trigger_resources": true,
+   "decisions": 34,
+   "tape_sha256": "86f5c4d59fa006f2b29dece3714454bf80c04f197a985a66cbc57cff09612041"
+  },
+  {
+   "family": "main2_set",
+   "split": "heldout",
+   "seed": 2026112041,
+   "start_lp": 8000,
+   "decisions": 53,
+   "tape_sha256": "58cea8a863851ac4caa90759cfd402fbd78dea05850a60dccb4d655cdeab3557"
+  },
+  {
+   "family": "main2_set",
+   "split": "heldout",
+   "seed": 2026112042,
+   "start_lp": 8000,
+   "decisions": 54,
+   "tape_sha256": "1fcc0a7cba6f756226c5bd97bcb7d06a3f82383e4425ca754d9f639f36cc93aa"
+  },
+  {
+   "family": "main2_set",
+   "split": "heldout",
+   "seed": 2026114201,
+   "start_lp": 8250,
+   "finish_turn": true,
+   "decisions": 55,
+   "tape_sha256": "13b828da89e576a347aeb6e467f6a061ca11fa5da5e2e21176b57940d53dc1b5"
+  },
+  {
+   "family": "main2_set",
+   "split": "heldout",
+   "seed": 2026114202,
+   "start_lp": 9250,
+   "finish_turn": true,
+   "decisions": 55,
+   "tape_sha256": "6b07ce6a61f9cb13920ecbac837c0c61219397d12fdb2792d1b241a183e8af3d"
+  },
+  {
+   "family": "main2_set",
+   "split": "train",
+   "seed": 2026113201,
+   "start_lp": 8000,
+   "finish_turn": true,
+   "decisions": 55,
+   "tape_sha256": "db002e2a6aeab59bc7dd37f7ec57b34366d24dc399c3e09cb127741483256c40"
+  },
+  {
+   "family": "main2_set",
+   "split": "train",
+   "seed": 2026113202,
+   "start_lp": 8500,
+   "finish_turn": true,
+   "decisions": 55,
+   "tape_sha256": "623f41ddde4ad99710ef9100ed6b2c2bf56d144f69b0a0f62592f53841866e33"
+  },
+  {
+   "family": "main2_set",
+   "split": "train",
+   "seed": 2026113203,
+   "start_lp": 9000,
+   "finish_turn": true,
+   "decisions": 69,
+   "tape_sha256": "05b2e00c4b6732fe33b1605ca265970c8b78f6fb29f9d7af974dab1523c9d9ce"
+  },
+  {
+   "family": "main2_set",
+   "split": "train",
+   "seed": 2026113204,
+   "start_lp": 9500,
+   "finish_turn": true,
+   "decisions": 55,
+   "tape_sha256": "076a4de1f90012ea5db11e0cfc53f1b8f31289082c118bdf842188cd111c5f5e"
+  },
+  {
+   "family": "main2_set",
+   "split": "train",
+   "seed": 2026113205,
+   "start_lp": 10000,
+   "finish_turn": true,
+   "decisions": 55,
+   "tape_sha256": "68f33347c72314422b4939b703f848717ec51a2fd139ad1215bfede9ca1defa4"
+  },
+  {
+   "family": "main2_set",
+   "split": "train",
+   "seed": 2026113206,
+   "start_lp": 8000,
+   "finish_turn": true,
+   "decisions": 55,
+   "tape_sha256": "51f20f29f7ace540b0cb5eaadf199e8b28bd29cacc19e6fa0f2ce86500d9e2db"
+  },
+  {
+   "family": "main2_set",
+   "split": "train",
+   "seed": 2026113207,
+   "start_lp": 8500,
+   "finish_turn": true,
+   "decisions": 55,
+   "tape_sha256": "8bf6c37322276b5666ff6457646bf097ed055c3d2e0c3e793e9c359e890936b0"
+  },
+  {
+   "family": "main2_set",
+   "split": "train",
+   "seed": 2026113208,
+   "start_lp": 9000,
+   "finish_turn": true,
+   "decisions": 55,
+   "tape_sha256": "545d3bb921b9edd1118838aee6f87e616f19dbf1de68570ed760f4f88de13da2"
+  },
+  {
+   "family": "main2_set",
+   "split": "train",
+   "seed": 2026113209,
+   "start_lp": 9500,
+   "finish_turn": true,
+   "decisions": 55,
+   "tape_sha256": "e193523c12b7758c2d265adda28fc7ec39234b3bc933797d5a5a3098f677490d"
+  },
+  {
+   "family": "main2_set",
+   "split": "train",
+   "seed": 2026113210,
+   "start_lp": 10000,
+   "finish_turn": true,
+   "decisions": 55,
+   "tape_sha256": "8eeda04bc45add301fd479399c8cb6c111986be1784b8a1b999903d168fbc1a2"
+  },
+  {
+   "family": "main2_set",
+   "split": "train",
+   "seed": 2026113211,
+   "start_lp": 8000,
+   "finish_turn": true,
+   "decisions": 62,
+   "tape_sha256": "6e01895c254e3912635a361aa308dce3c68d9c60ceabd4e7df4389d80ae25528"
+  },
+  {
+   "family": "main2_set",
+   "split": "train",
+   "seed": 2026113212,
+   "start_lp": 9000,
+   "finish_turn": true,
+   "decisions": 55,
+   "tape_sha256": "4b873101979ffd2f9f35bfb4773fa50bcf41ac7d9407ba5fbbc3fbb8a30ad570"
+  },
+  {
+   "family": "sword",
+   "split": "heldout",
+   "seed": 2026112001,
+   "start_lp": 7400,
+   "decisions": 43,
+   "tape_sha256": "a3fd2e1893e4ade0c139ba466b127f9c446afd432f2268770ec2a6ad07006680"
+  },
+  {
+   "family": "sword",
+   "split": "heldout",
+   "seed": 2026112002,
+   "start_lp": 6800,
+   "decisions": 43,
+   "tape_sha256": "76c4dd6320802ceeed5838f8f8a78c276243501161e43472d2f87dfb8da9e429"
+  },
+  {
+   "family": "sword",
+   "split": "heldout",
+   "seed": 2026114001,
+   "start_lp": 7250,
+   "finish_turn": false,
+   "decisions": 42,
+   "tape_sha256": "bb9b51faee82ea2f6998d330537731f88fdbd608e015654cd80fbaeb3a6f79dd"
+  },
+  {
+   "family": "sword",
+   "split": "heldout",
+   "seed": 2026114002,
+   "start_lp": 6750,
+   "finish_turn": false,
+   "decisions": 46,
+   "tape_sha256": "01a37b06475e75d9a7cd3327bd94ff5973f01b899dc54d74081f5eed9031a852"
+  },
+  {
+   "family": "sword",
+   "split": "train",
+   "seed": 2026113001,
+   "start_lp": 7500,
+   "finish_turn": false,
+   "decisions": 62,
+   "tape_sha256": "4f5b4cdebda584b7f50f5af8facf08ec53eb4c961a3b3352dfde8835904460a5"
+  },
+  {
+   "family": "sword",
+   "split": "train",
+   "seed": 2026113002,
+   "start_lp": 7000,
+   "finish_turn": false,
+   "decisions": 43,
+   "tape_sha256": "8e5b15f038d32845f5eaa68c88027943e3130f67c67d06107798414b9360bc4e"
+  },
+  {
+   "family": "sword",
+   "split": "train",
+   "seed": 2026113003,
+   "start_lp": 6500,
+   "finish_turn": false,
+   "decisions": 46,
+   "tape_sha256": "41fd5bc1996d29596450d195eb65aad06b71997232a09f35e9bf95d7ca2c8484"
+  },
+  {
+   "family": "sword",
+   "split": "train",
+   "seed": 2026113004,
+   "start_lp": 6000,
+   "finish_turn": false,
+   "decisions": 43,
+   "tape_sha256": "a56ea1496e949d9236cac0e0c3eaf9bfadc72f811e4250d5d3456fd42e60d66b"
+  },
+  {
+   "family": "sword",
+   "split": "train",
+   "seed": 2026113005,
+   "start_lp": 7200,
+   "finish_turn": false,
+   "decisions": 54,
+   "tape_sha256": "3a497bff532e46b1f3dc389e8a44b3f4bec8329840bd83f6ca3d11dd9b6c6f54"
+  },
+  {
+   "family": "sword",
+   "split": "train",
+   "seed": 2026113006,
+   "start_lp": 6800,
+   "finish_turn": false,
+   "decisions": 51,
+   "tape_sha256": "b6f7e89608633f9b1e90dd005a568d70981744ce270054cec9bd719dfe76862d"
+  },
+  {
+   "family": "sword",
+   "split": "train",
+   "seed": 2026113007,
+   "start_lp": 7400,
+   "finish_turn": false,
+   "decisions": 43,
+   "tape_sha256": "972a089f7c4a1a6f677db97cb3d73d138500ad502787a8d315356e7886fe26fa"
+  },
+  {
+   "family": "sword",
+   "split": "train",
+   "seed": 2026113008,
+   "start_lp": 7100,
+   "finish_turn": false,
+   "decisions": 43,
+   "tape_sha256": "e206f36f5969ebf94dba21802c94b28c058f6963881a9fcd74acdfd3a96b11bc"
+  },
+  {
+   "family": "sword",
+   "split": "train",
+   "seed": 2026113009,
+   "start_lp": 6900,
+   "finish_turn": false,
+   "decisions": 43,
+   "tape_sha256": "aae4529717b7c65b70b72fa2ac8f6096c810d008f7ba5a451a65355f65a17d9a"
+  },
+  {
+   "family": "sword",
+   "split": "train",
+   "seed": 2026113010,
+   "start_lp": 7300,
+   "finish_turn": false,
+   "decisions": 43,
+   "tape_sha256": "eae4fb84dccda34ab51e6ddab1b269e9e73825be934f463173c5739f11019c2e"
+  },
+  {
+   "family": "sword",
+   "split": "train",
+   "seed": 2026113011,
+   "start_lp": 6600,
+   "finish_turn": false,
+   "decisions": 51,
+   "tape_sha256": "ef1926251bb6e77a25fc0ffc9f014ef54f4373c6b6bb290be1bb5ceec50b574a"
+  },
+  {
+   "family": "sword",
+   "split": "train",
+   "seed": 2026113012,
+   "start_lp": 6400,
+   "finish_turn": false,
+   "decisions": 43,
+   "tape_sha256": "9499563f1e42e45d4bf9906ef21733f24ecbb854981fb09415d88d8e9936b90f"
+  }
+ ]
+}

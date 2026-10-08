@@ -1,0 +1,165 @@
+{
+  "schema": "mirrorforce_friend_outbound_source/v1",
+  "files": {
+    "README.md": {
+      "sha256": "bb6b5aea6c38cbae504f82230f71beed84604f0d69f898cefa00d9ff9664d0b8",
+      "bytes": 10812
+    },
+    "__init__.py": {
+      "sha256": "1ef552b7adf5962e5fc4fa2eaba6f08354ad2fa8c80825d5dbaf927d5030a3f9",
+      "bytes": 77
+    },
+    "build_contract.py": {
+      "sha256": "7edd626e691c8455233419a2aec23b4b88cb7c8ded6d01957d11a4aaae77812e",
+      "bytes": 2164
+    },
+    "cards.py": {
+      "sha256": "31d305566701b6761d269bb61b49f0ed78cfad0d9b713260e2b0b3a816e95976",
+      "bytes": 1190
+    },
+    "client.py": {
+      "sha256": "9c27cd571d7e8d9b0afab7a466f1687c133e9a791576cc36b5ab39283362385c",
+      "bytes": 20293
+    },
+    "continuous.py": {
+      "sha256": "66598f614a31bc7c7f261bcfc13224f609c9eb9c6bf71f5d1aac316a4262c48c",
+      "bytes": 8218
+    },
+    "deck_sync.py": {
+      "sha256": "14a24b494c9acded2bc9159ebcdb5bac1d9fc2bdc4f0990d5a7a68d0375f9ba1",
+      "bytes": 3524
+    },
+    "exports.py": {
+      "sha256": "9a3214e2ef46c1af316c5867a02492901901cb97d93a75e37b1ceb80c61e8e64",
+      "bytes": 6471
+    },
+    "manager.py": {
+      "sha256": "9c9b80aca8ee3b99bf39d423de68fbbc3ef75c2ad52938a319488ef1f002082b",
+      "bytes": 19437
+    },
+    "native_contract.json": {
+      "sha256": "5c86aebb729a039fa563080510c3e4e581d2cab2b7510c80553f14966f4ee1e2",
+      "bytes": 3757
+    },
+    "official_policy.py": {
+      "sha256": "f0dbec0758d2463ae881d5f699b55264be1cdf36caf35c3f6fb278f3842618f3",
+      "bytes": 8402
+    },
+    "opponent_deck.py": {
+      "sha256": "8922227d395d9bbc0b72b667b78627541cdda8740890960c3da2d049e62aaabb",
+      "bytes": 7690
+    },
+    "playback.py": {
+      "sha256": "c4fbdb106d305c5dcf0d324f9d0998ab8bcbb2ce4160a7c062564bd3f27cdcf2",
+      "bytes": 10182
+    },
+    "pool_assets.py": {
+      "sha256": "5731788b7c7f5690984e8ce9dc644c23fe049f38d39f598a2d72911814234b0c",
+      "bytes": 8061
+    },
+    "pool_policy.py": {
+      "sha256": "3701e1bc661f1fb66ae38c6b271f0b98a1d4dc9cd7f9575e90f91488556be65e",
+      "bytes": 4050
+    },
+    "preference.py": {
+      "sha256": "ed1b4fca3a29b499ca702ee42affd2288b8d6447d1fa18c6cba328d7fcb10915",
+      "bytes": 585
+    },
+    "replay_convert.py": {
+      "sha256": "72f57fa41970445891b6dc055737725f11fe1abb13805b2ee4ed906d47cd5621",
+      "bytes": 4948
+    },
+    "run.py": {
+      "sha256": "1d0d348d3ec22848e67770f7b711edb68c22ba7f10d791381832cb0aa772038b",
+      "bytes": 16103
+    },
+    "selftest.py": {
+      "sha256": "ac76d8a94eb3f2d429279da52488d489010445abe43b55cfb859d4530ac1fdc8",
+      "bytes": 5782
+    },
+    "server_deck.py": {
+      "sha256": "bfb69a9f0e7bad2e166c945bd06ee9a89ef77ac4f4e74e450376ad3928e5f7f3",
+      "bytes": 7011
+    },
+    "structured.py": {
+      "sha256": "554348c60340c17c1df42009c432b5e22de536b289237f0396e1f75d97ec948b",
+      "bytes": 19912
+    },
+    "test_outbound.py": {
+      "sha256": "0c76bf9fd08d245250b33fe24d540fc39959c7b0f22cf51db041f9e7a46e517a",
+      "bytes": 11111
+    },
+    "test_pool_refresh.py": {
+      "sha256": "9cd8bc88c7e624f4940c669bdc802e08ca1ec2f40e4ad69597ee855a9b49f8cb",
+      "bytes": 3931
+    },
+    "trace_journal.py": {
+      "sha256": "7308877e213c7aa9aafd162995716959d9218bd754a4e6e813eee7ee32625647",
+      "bytes": 1281
+    },
+    "vendor/README.md": {
+      "sha256": "811105508b7787f74e8bd6f7e285e34060de26dc7577e5255378e3d1d0fbdbf3",
+      "bytes": 1182
+    },
+    "vendor/__init__.py": {
+      "sha256": "bf072f7c1c0781ac50ed488cb2354b98efe56ba009ba9620a60179da77638d62",
+      "bytes": 56
+    },
+    "vendor/netduel/__init__.py": {
+      "sha256": "6e68730a7200f1b42d4596d0c35638d322c264ac8d4e3eb3fd25b2a9aaa4b953",
+      "bytes": 88
+    },
+    "vendor/netduel/actions.py": {
+      "sha256": "684345cd6368a288293b523a0319511e4980d153681ef6eb84c439edf78e8e70",
+      "bytes": 42431
+    },
+    "vendor/netduel/board.py": {
+      "sha256": "6aaab1682753869d01f5f3f1507eff108facfa091c1f5782214eb436f02f2588",
+      "bytes": 49684
+    },
+    "vendor/netduel/cards.py": {
+      "sha256": "da3a074ca32cedd352161ca856a594823b3304b7b73a46b14d5941b07a015051",
+      "bytes": 7238
+    },
+    "vendor/netduel/client.py": {
+      "sha256": "7c036d38b0fea3a5946ebf880e8f94f230f69d70a56d340f7635e060972071a3",
+      "bytes": 19698
+    },
+    "vendor/netduel/constants.py": {
+      "sha256": "80d78e6b885aa6e9943cb20c83c864cb7df1bd3e7cbde81d2c3713584015fe6f",
+      "bytes": 7503
+    },
+    "vendor/netduel/disclosure.py": {
+      "sha256": "2ff8fa6666c2d646fba88452f459d80586b4fcbf1c698b845b4f6447db9c3ce8",
+      "bytes": 8583
+    },
+    "vendor/netduel/encode.py": {
+      "sha256": "98dcc5ccd9fd919f73b7f0d5f85ef1553a38d0a92390f7bab229e39715c107b6",
+      "bytes": 25191
+    },
+    "vendor/netduel/obsconst.py": {
+      "sha256": "753b633c2b3249454417f3faa40367a2c3a1ab8a779d0adeff89d738096eceef",
+      "bytes": 6418
+    },
+    "vendor/netduel/policy.py": {
+      "sha256": "da9ccf5728e98ca5f86116ac9245334a7c7e088a5af4c905973d7f11691ba2a2",
+      "bytes": 3585
+    },
+    "vendor/netduel/protocol.py": {
+      "sha256": "695224d88c620d4084f6eab984e1dce4330b2b252a31fb75a7400ef7b3a2d71e",
+      "bytes": 7482
+    },
+    "vendor/replay/__init__.py": {
+      "sha256": "93d701b5b9cdc949a5cf2bf6061ba5ebe4ca5da48a7e20282783e7fa87dbd0e6",
+      "bytes": 78
+    },
+    "vendor/replay/actions.py": {
+      "sha256": "92c6636802361a1c54bde5099a3f40a2c4a3865f30ec03d7f227427668f4d9b2",
+      "bytes": 12020
+    },
+    "vendor/sources.json": {
+      "sha256": "3d653e4c7383606c86f20992102080d66a7f97f22419f0b2b336ae66a5a6f8ec",
+      "bytes": 2706
+    }
+  }
+}

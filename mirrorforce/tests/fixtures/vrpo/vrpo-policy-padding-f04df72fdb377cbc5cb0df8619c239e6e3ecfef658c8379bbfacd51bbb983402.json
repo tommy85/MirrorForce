@@ -1,0 +1,11 @@
+{
+  "clip_coef": 0.02,
+  "effective_decisions": 4,
+  "npz_sha256": "f04df72fdb377cbc5cb0df8619c239e6e3ecfef658c8379bbfacd51bbb983402",
+  "reference_commit": "acdcf199cf422e2b683cb22142b8e7cb33b14460",
+  "reference_loss_sha256": "01507c3173414a1f474e8f4856c2bc1b60a2d0320dd8f6d24a4e183bad676acd",
+  "reg_coef": 0.1,
+  "schema": "mirrorforce_vrpo_policy_padding_reference/v1",
+  "script_sha256": "7203b8dac21bbf11517ddb9b11287c1cecf46bdc63a65c565a4e0af25c854765",
+  "torch": "2.13.0+cpu"
+}

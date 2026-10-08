@@ -1,0 +1,129 @@
+{
+  "schema": "mirrorforce_friend_agent_source/v1",
+  "files": {
+    "ygoai/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "ygoai/_version.py": {
+      "sha256": "ba0cae165884aad0304261f8b1395cd7a6172986c558399fca4f3b7c4ac1f3ef",
+      "bytes": 21
+    },
+    "ygoai/constants.py": {
+      "sha256": "23dacd470af1d4b4f126b8a886619a095fab187742e7ebe8dc29bbed774810e8",
+      "bytes": 6634
+    },
+    "ygoai/embed.py": {
+      "sha256": "c3d80dae7be53b41b5cc0f85200e974213388822e63d97119461969cfece7f3a",
+      "bytes": 4060
+    },
+    "ygoai/rl/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "ygoai/rl/agent.py": {
+      "sha256": "616074c72d8084d123cc27700bb2ac794900381660ec288ae49f8c8271946738",
+      "bytes": 16990
+    },
+    "ygoai/rl/agent2.py": {
+      "sha256": "030106b3e79570b1a2b23960dc6802a27df39be4fd875fe5ebb51859ab80ca08",
+      "bytes": 16934
+    },
+    "ygoai/rl/buffer.py": {
+      "sha256": "2051535c680aceba4d166d6693aed2c9a36bb260b1f33beaa75b2de15ab76149",
+      "bytes": 28642
+    },
+    "ygoai/rl/ckpt.py": {
+      "sha256": "fa0db30733663a97572dcf75c8c0e2a393399e7db0354b8107b36268a83422d7",
+      "bytes": 2967
+    },
+    "ygoai/rl/dist.py": {
+      "sha256": "2c49931606d2027f55006464c318b772d4cf539dcd4e196882842f3990435e7c",
+      "bytes": 1882
+    },
+    "ygoai/rl/env.py": {
+      "sha256": "09d3bce1fb269c680c69b364419b0ade91ee267f14ac25a1070c1c5d4471e940",
+      "bytes": 3253
+    },
+    "ygoai/rl/eval.py": {
+      "sha256": "8a45cbfe796ef99130bab893a58ff8eed6e8f31f3b2f0e2d582dc4c0b53443b0",
+      "bytes": 1297
+    },
+    "ygoai/rl/jax/__init__.py": {
+      "sha256": "ca2b469fb2f0770938dcc19444633b2e81cf2510f93a99bf3bb2ab680edb376c",
+      "bytes": 20617
+    },
+    "ygoai/rl/jax/agent.py": {
+      "sha256": "8dd69a6456f137cd3af33e6381e537f348fb73e6c9758a0ca4c1218d45d68205",
+      "bytes": 33142
+    },
+    "ygoai/rl/jax/agent2.py": {
+      "sha256": "76c4eae260b102a8c4a2f88725068f736f43b3964662456d6e68da31c0fb541e",
+      "bytes": 25755
+    },
+    "ygoai/rl/jax/decision.py": {
+      "sha256": "f22df926c12a2bc44fb6e1a5043c986f15de51286b553123b73bfdc17dbf0050",
+      "bytes": 6859
+    },
+    "ygoai/rl/jax/decision_checkpoint.py": {
+      "sha256": "5c654c99f802da89223b79867b1a2cdddb889efa5e5cd9378c552a642ecad733",
+      "bytes": 2445
+    },
+    "ygoai/rl/jax/eval.py": {
+      "sha256": "a4c097a3668ca0301f07d68bf7818c468af4e63757ff826cc317be33f4f00e18",
+      "bytes": 2736
+    },
+    "ygoai/rl/jax/modules.py": {
+      "sha256": "63358e3566e046180dc3e2f51fd283d2a060e789ba201551faa04fca8c9327de",
+      "bytes": 9586
+    },
+    "ygoai/rl/jax/nnx/agent.py": {
+      "sha256": "6d5ccecfdef383ff413f4e235a15667ee8f0cb7595394c86327c5ba410e9f79b",
+      "bytes": 28968
+    },
+    "ygoai/rl/jax/nnx/modules.py": {
+      "sha256": "3ab62144f5c16168e9629b61e7ed5c82efdc0c003f933ba391bd92f242aba08f",
+      "bytes": 10230
+    },
+    "ygoai/rl/jax/nnx/rnn.py": {
+      "sha256": "2e2f1c5602545b7ddff53b5ed3332dfad11d07fade8b61370145bb31640fe30a",
+      "bytes": 2866
+    },
+    "ygoai/rl/jax/nnx/transformer.py": {
+      "sha256": "15aec28cf34ec37480e912a1c8f102eff4ffea6ea5b068aa12b4a5df68da6761",
+      "bytes": 21853
+    },
+    "ygoai/rl/jax/rwkv.py": {
+      "sha256": "1ddb0f5e6ec0ac5acca7f5ddd104a9c1a314635b2a0000c23f7247dd2110f713",
+      "bytes": 10570
+    },
+    "ygoai/rl/jax/structured_agent.py": {
+      "sha256": "d1ed1eedd1d2d253c9aba75dedee43bef4a7b6006956f138bd5cec16e62ad66a",
+      "bytes": 23475
+    },
+    "ygoai/rl/jax/switch.py": {
+      "sha256": "542e3745644e0bb69207457ad3d9ba060bcbc0ab433345f6bc6d4e0c6601867e",
+      "bytes": 1530
+    },
+    "ygoai/rl/jax/transformer.py": {
+      "sha256": "699448a92679ad7bf8fc1d771ab648bb208a0bf21decf22ff140612926d617a7",
+      "bytes": 30237
+    },
+    "ygoai/rl/jax/utils.py": {
+      "sha256": "8bc15284924a96b4d65d07ef34015b76af079876b7d4d98033430014897ad5cf",
+      "bytes": 5233
+    },
+    "ygoai/rl/ppo.py": {
+      "sha256": "7014d28e649157e87852f6e8d38a760bd9e8843c2972056bcc108adfcbbbdc64",
+      "bytes": 16232
+    },
+    "ygoai/rl/utils.py": {
+      "sha256": "0a37541f7bbd9817b75ff8eafc37684b38aef455f1a99ef1b08d5cc88ef3abd6",
+      "bytes": 1362
+    },
+    "ygoai/utils.py": {
+      "sha256": "e744130a4ef7caa47edf4baa7393eff07e11b41937473968ef3cd39b0a90b305",
+      "bytes": 2339
+    }
+  }
+}

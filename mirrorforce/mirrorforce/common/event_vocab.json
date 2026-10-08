@@ -1,0 +1,291 @@
+{
+ "version": "mirrorforce_event_vocab/v1",
+ "oov": 0,
+ "size": 137,
+ "note": "etype = 1 + family_base + subtype; 0 is OOV",
+ "families": [
+  {
+   "name": "move",
+   "base": 1,
+   "size": 64,
+   "subtype": "src_loc * 8 + dst_loc (both log2-compressed locations)"
+  },
+  {
+   "name": "chain",
+   "base": 65,
+   "size": 5,
+   "subtype": "ch_kind: 0 chaining/1 solved/2 negated/3 disabled/4 solving"
+  },
+  {
+   "name": "draw",
+   "base": 70,
+   "size": 3,
+   "subtype": "number of cards drawn, bucketed: 1 / 2 / 3+"
+  },
+  {
+   "name": "pos",
+   "base": 73,
+   "size": 4,
+   "subtype": "log2 position bits of pc_cur"
+  },
+  {
+   "name": "negate",
+   "base": 77,
+   "size": 1,
+   "subtype": "effect negated"
+  },
+  {
+   "name": "target",
+   "base": 78,
+   "size": 1,
+   "subtype": "takes a target"
+  },
+  {
+   "name": "attack",
+   "base": 79,
+   "size": 2,
+   "subtype": "0 direct attack (no target) / 1 with an attack target"
+  },
+  {
+   "name": "lp",
+   "base": 81,
+   "size": 8,
+   "subtype": "lp_kind * 2 + whether inside the damage step"
+  },
+  {
+   "name": "public",
+   "base": 89,
+   "size": 48,
+   "subtype": "pub_kind (the public disclosure vocabulary of state.py:816-855)"
+  }
+ ],
+ "labels": [
+  "oov",
+  "move/0",
+  "move/1",
+  "move/2",
+  "move/3",
+  "move/4",
+  "move/5",
+  "move/6",
+  "move/7",
+  "move/8",
+  "move/9",
+  "move/10",
+  "move/11",
+  "move/12",
+  "move/13",
+  "move/14",
+  "move/15",
+  "move/16",
+  "move/17",
+  "move/18",
+  "move/19",
+  "move/20",
+  "move/21",
+  "move/22",
+  "move/23",
+  "move/24",
+  "move/25",
+  "move/26",
+  "move/27",
+  "move/28",
+  "move/29",
+  "move/30",
+  "move/31",
+  "move/32",
+  "move/33",
+  "move/34",
+  "move/35",
+  "move/36",
+  "move/37",
+  "move/38",
+  "move/39",
+  "move/40",
+  "move/41",
+  "move/42",
+  "move/43",
+  "move/44",
+  "move/45",
+  "move/46",
+  "move/47",
+  "move/48",
+  "move/49",
+  "move/50",
+  "move/51",
+  "move/52",
+  "move/53",
+  "move/54",
+  "move/55",
+  "move/56",
+  "move/57",
+  "move/58",
+  "move/59",
+  "move/60",
+  "move/61",
+  "move/62",
+  "move/63",
+  "chain/0",
+  "chain/1",
+  "chain/2",
+  "chain/3",
+  "chain/4",
+  "draw/0",
+  "draw/1",
+  "draw/2",
+  "pos/0",
+  "pos/1",
+  "pos/2",
+  "pos/3",
+  "negate/0",
+  "target/0",
+  "attack/0",
+  "attack/1",
+  "lp/0",
+  "lp/1",
+  "lp/2",
+  "lp/3",
+  "lp/4",
+  "lp/5",
+  "lp/6",
+  "lp/7",
+  "public/0",
+  "public/1",
+  "public/2",
+  "public/3",
+  "public/4",
+  "public/5",
+  "public/6",
+  "public/7",
+  "public/8",
+  "public/9",
+  "public/10",
+  "public/11",
+  "public/12",
+  "public/13",
+  "public/14",
+  "public/15",
+  "public/16",
+  "public/17",
+  "public/18",
+  "public/19",
+  "public/20",
+  "public/21",
+  "public/22",
+  "public/23",
+  "public/24",
+  "public/25",
+  "public/26",
+  "public/27",
+  "public/28",
+  "public/29",
+  "public/30",
+  "public/31",
+  "public/32",
+  "public/33",
+  "public/34",
+  "public/35",
+  "public/36",
+  "public/37",
+  "public/38",
+  "public/39",
+  "public/40",
+  "public/41",
+  "public/42",
+  "public/43",
+  "public/44",
+  "public/45",
+  "public/46",
+  "public/47"
+ ],
+ "sub_prompt_kinds": {
+  "atype_base": 32,
+  "note": "cand_int.atype = atype_base + kind; kind 0 = unrecognised message; raw engine message numbers are NOT usable directly (MSG_ANNOUNCE_CARD=142 would overshoot N_ATYPE)",
+  "kinds": [
+   {
+    "kind": 1,
+    "sub_msg": 12,
+    "name": "select_effectyn",
+    "atype": 33
+   },
+   {
+    "kind": 2,
+    "sub_msg": 13,
+    "name": "select_yesno",
+    "atype": 34
+   },
+   {
+    "kind": 3,
+    "sub_msg": 14,
+    "name": "select_option",
+    "atype": 35
+   },
+   {
+    "kind": 4,
+    "sub_msg": 15,
+    "name": "select_card",
+    "atype": 36
+   },
+   {
+    "kind": 5,
+    "sub_msg": 18,
+    "name": "select_place",
+    "atype": 37
+   },
+   {
+    "kind": 6,
+    "sub_msg": 19,
+    "name": "select_position",
+    "atype": 38
+   },
+   {
+    "kind": 7,
+    "sub_msg": 20,
+    "name": "select_tribute",
+    "atype": 39
+   },
+   {
+    "kind": 8,
+    "sub_msg": 21,
+    "name": "sort_chain",
+    "atype": 40
+   },
+   {
+    "kind": 9,
+    "sub_msg": 22,
+    "name": "select_counter",
+    "atype": 41
+   },
+   {
+    "kind": 10,
+    "sub_msg": 23,
+    "name": "select_sum",
+    "atype": 42
+   },
+   {
+    "kind": 11,
+    "sub_msg": 24,
+    "name": "select_disfield",
+    "atype": 43
+   },
+   {
+    "kind": 12,
+    "sub_msg": 25,
+    "name": "sort_card",
+    "atype": 44
+   },
+   {
+    "kind": 13,
+    "sub_msg": 26,
+    "name": "select_unselect_card",
+    "atype": 45
+   },
+   {
+    "kind": 14,
+    "sub_msg": 142,
+    "name": "announce_card",
+    "atype": 46
+   }
+  ]
+ }
+}

@@ -1,0 +1,8 @@
+{
+ "npz_sha256": "a93300be8843ba7cf12ce06b0f8836bd21f9719f0e26cd0ab2e334a5a0ab198e",
+ "reference_commit": "acdcf199cf422e2b683cb22142b8e7cb33b14460",
+ "schema": "mirrorforce_vrpo_reference/v1",
+ "script_sha256": "4bdf360a9252fbb43120e92983735e3df318a32e4c36dc4f295e9e05b86541d4",
+ "seed": 20261001,
+ "torch": "2.13.0+cpu"
+}
