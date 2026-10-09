@@ -2,7 +2,7 @@
 
 MirrorForce is trained from scratch by self-play, with no human data and no imitation of a scripted bot. The trainer
 is `mirrorforce/mirrorforce/agent/train/cleanba.py` (a Cleanba-style distributed actor–learner in JAX) and the loss is
-in `mirrorforce/mirrorforce/agent/train/ataraxos.py`. The recipe, which we call A0, adapts the regularized policy
+in `mirrorforce/mirrorforce/agent/train/ataraxos.py`. The recipe adapts the regularized policy
 gradient of Ataraxos (Sokota et al., *Scalable decision-making for games of imperfect information*, Nature 2026,
 [doi:10.1038/s41586-026-11036-y](https://doi.org/10.1038/s41586-026-11036-y)) to Yu-Gi-Oh!.
 
@@ -121,7 +121,7 @@ train after the resumed iteration.
 ## Targeted scenario training
 
 Self-play rarely visits some tactical lines, so the champion's training paused once, at iteration 1,000, for a
-supervised pass on scripted scenes, and then continued with A0 from the updated actor.
+supervised pass on scripted scenes, and then continued self-play training from the updated actor.
 
 - **Scenes.** `data/specialization/scenes.json` registers 96 scenes (62 for training, 34 held out, 3,784 decisions)
   in five families: a lethal line finished with Sword (`sword`), the same finished with Bomber (`bomber`), a board
@@ -138,9 +138,9 @@ supervised pass on scripted scenes, and then continued with A0 from the updated 
   champion's pass took 448 updates.
 - **Validation.** `tools/mf_runtime_scene_host.py` plays the held-out scenes against a policy service through the
   public client protocol (`tools/mf_runtime_scene_player.py`); the policy sees only its own client's messages.
-- **Return to A0.** `mirrorforce/agent/train/policy_repair.py` writes the fine-tuned actor parameters into the A0
-  checkpoint and keeps everything else of it: the A0 optimizer, the critic, the parameter average and the counters.
-  A0 then resumes from that checkpoint.
+- **Return to self-play.** `mirrorforce/agent/train/policy_repair.py` writes the fine-tuned actor parameters into
+  the training checkpoint and keeps everything else of it: the optimizer, the critic, the parameter average and
+  the counters. Self-play training then resumes from that checkpoint.
 
 ## Evaluation during training
 

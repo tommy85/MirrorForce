@@ -18,7 +18,7 @@ the overall picture; the other documents go into each part:
 | Rules engine | `third_party/ygopro-core` | The YGOPro core with deterministic effect order, thread-safe global state, whole-duel snapshots and hidden-card permutation |
 | Environment | `mirrorforce/cxx/duelpool`, `mirrorforce/agent/env` | Hundreds of duels on threads in one process; builds each seat's observation from public information |
 | Model | `mirrorforce/agent/model/policy_net.py` | Card-level transformer with policy, value and belief heads |
-| Trainer | `mirrorforce/agent/train/cleanba.py`, `ataraxos.py` | Distributed JAX actor–learner with the A0 recipe |
+| Trainer | `mirrorforce/agent/train/cleanba.py`, `ataraxos.py` | Distributed JAX actor–learner with the regularized self-play recipe |
 | Card semantics | `mirrorforce/agent/semantics`, `tools/mf_runtime_card_tables.py` | Frozen per-card tables built from the card database and Lua scripts |
 | Policy service | `tools/mf_runtime_policy_service.py` | Loads a checkpoint and answers decisions over a Unix socket |
 | Room client | `tools/mf_runtime_league_client.py`, `mirrorforce/netduel` | Speaks the YGOPro room protocol, tracks the public board and asks the service for each answer |
@@ -45,7 +45,7 @@ The same observation code serves training and play, so a policy behaves the same
 1. Each actor process runs a batch of duels (Sky Striker mirror) in the C++ environment. Both seats are played by the
    same policy (the learner's latest parameters), sampling from its distribution.
 2. Trajectories of both seats, with the central critic's values and the belief targets, are sent to the learner.
-3. After an iteration of about 4.9 million decisions, the learner takes 200 optimizer steps with the A0 loss and
+3. After an iteration of about 4.9 million decisions, the learner takes 200 optimizer steps with the training loss and
    updates the actors' parameters.
 4. Checkpoints are content-addressed by SHA-256 and carry a receipt (configuration, source revision, engine digest,
    rule versions); resuming verifies them.

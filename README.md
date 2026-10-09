@@ -28,7 +28,7 @@ against WinBot, the scripted YGOPro bot (right).
   Lua script. A set transformer encodes the board, a causal transformer the events of the current turn, and each
   earlier turn is kept as one summary token. Each legal action is a query that attends to the cards, so menus of any
   size are scored.
-- **Self-play PPO with a magnet KL (A0).** PPO-clip plus a KL pull toward the uniform policy over legal actions with
+- **Self-play PPO with a magnet KL.** PPO-clip plus a KL pull toward the uniform policy over legal actions with
   a decaying temperature, following the Ataraxos recipe. A central critic that sees hidden cards estimates
   advantages during training only; the policy sees only what a real client sees.
 - **Targeted scenario training.** Scripted demonstrations of tactical scenes the agent missed (lethal lines,
@@ -91,5 +91,5 @@ MIT; see [LICENSE](LICENSE). Third-party code and the scripts distributed under 
 - [EnvPool](https://github.com/sail-sg/envpool) (Apache-2.0): the batched environment framework.
 - [Cleanba](https://github.com/vwxyzjn/cleanba): the distributed training layout.
 - Sokota et al., *Scalable decision-making for games of imperfect information*, Nature 2026
-  ([doi:10.1038/s41586-026-11036-y](https://doi.org/10.1038/s41586-026-11036-y)): the A0 training recipe.
+  ([doi:10.1038/s41586-026-11036-y](https://doi.org/10.1038/s41586-026-11036-y)): the training recipe.
 - The organizers and participants of the first YGO agent competition.
