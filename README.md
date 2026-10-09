@@ -5,7 +5,7 @@ after the trap card *Mirror Force*.
 
 - **Champion of the first YGO agent competition** (retro Sky Striker mirror,
   [announcement](https://www.bilibili.com/opus/1256117444081090563)). Against the Sky Striker human champion
-  **第十四位奏者** it won the first best-of-seven 5–3 (two of the three losses were agent disconnections) and lost
+  **第14位奏者** it won the first best-of-seven 5–3 (two of the three losses were agent disconnections) and lost
   the second 3–4. Replays are in [`replay/`](replay/).
 - A 28M-parameter transformer trained from scratch for about 3 days on 32 H20 GPUs.
 - The champion's weights (iteration 1,084) are attached to the [first release](../../releases).

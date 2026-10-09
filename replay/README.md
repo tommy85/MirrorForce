@@ -1,6 +1,6 @@
 # Competition replays
 
-Games of MirrorForce (`MirrorForce` or `Mirrorforce` in the replays) against the Sky Striker human champion 第十四位奏者 (`14sf`) at the
+Games of MirrorForce (`MirrorForce` or `Mirrorforce` in the replays) against the Sky Striker human champion 第14位奏者 (`14sf`) at the
 first YGO agent competition, both sides playing the deck in [`../deck/SkyStriker.ydk`](../deck/SkyStriker.ydk). Open
 them with a YGOPro client.
 
