@@ -57,10 +57,10 @@ commands are in [docs/usage.md](docs/usage.md). Training from scratch or from th
 
 ## Search switch
 
-Search is off by default: the released client plays the plain policy, as in the competition. The optional search
-module is a library selected by registered settings (`final_search.settings("on")` for the room clock,
-`untimed_search.settings()` for evaluation); see [docs/usage.md](docs/usage.md#search-switch) and
-[docs/search.md](docs/search.md).
+The released room client and the local match tool play the plain policy, as in the competition. The search module
+(follower, hidden-card sampling, root search) is released as a library only, selected by registered settings
+(`final_search.settings("on")` for the room clock, `untimed_search.settings()` for evaluation); no client in this
+release plays a game with it yet. See [docs/usage.md](docs/usage.md#search-switch) and [docs/search.md](docs/search.md).
 
 ## TODO and known issues
 
@@ -70,9 +70,9 @@ module is a library selected by registered settings (`final_search.settings("on"
   Phase to dodge Effect Veiler, or using Area Zero for free value.
 - **One deck.** Only the Sky Striker mirror is trained. More decks, modern card pools and randomized hand traps are
   next.
-- **Play-time search.** Search has not yet shown a measured gain over the plain policy. The room client that drives
-  search is not released yet, and when the follower loses sync the client leaves the game instead of falling back to
-  the plain policy.
+- **Play-time search.** Search is released as a library only: no client or tool in this release plays a game with
+  it. It has not yet shown a measured gain over the plain policy, and when the follower loses sync the client leaves
+  the game instead of falling back to the plain policy.
 - **Belief.** The opponent-hand belief is an auxiliary head; neither the policy nor the search reads it yet.
 - **Training ideas.** Attention over the full cross-turn history; counterfactual replays of lost games to find the
   decisive decisions; exploiter agents that target the main agent's weaknesses.

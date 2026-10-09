@@ -122,8 +122,8 @@ variables above to run them.
 
 ## Search switch
 
-Search is off by default: the policy service and the league client play the plain greedy
-policy, as in the competition. The search module ships as a library
+The policy service, the league client and the local match tool play the plain greedy policy, as in the
+competition. The search module ships as a library
 (`mirrorforce/mirrorforce/netduel/agent_search_policy.py`, with the follower in `mirrorforce/mirrorforce/common/`)
 and is configured by registered settings rather than free parameters:
 
@@ -134,9 +134,9 @@ and is configured by registered settings rather than free parameters:
 | `untimed_search.settings()` | The same search without time limits, for evaluation only |
 
 The hidden-card proposal is chosen with `make_particle_provider("public_current_root_uniform")` or
-`make_particle_provider("public_current_root_count_head")` (resampled with the policy's count-belief head). A room
-client that drives the search is not part of this release; [search.md](search.md) describes the follower,
-the root search and when it triggers.
+`make_particle_provider("public_current_root_count_head")` (resampled with the policy's count-belief head). No
+client or tool in this release plays a game with search yet: the room client and the local match tool play the plain
+policy. [search.md](search.md) describes the follower, the root search and when it triggers.
 
 ## Repository layout
 

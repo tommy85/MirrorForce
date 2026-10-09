@@ -1,6 +1,7 @@
 # Play-time search
 
-Play-time search is optional; the competition results were obtained with the plain policy. The module lets the agent
+Play-time search is optional; the competition results were obtained with the plain policy. It is released as a
+library only: no client in this release plays a game with it yet. The module lets the agent
 look ahead at a decision by playing candidate actions forward in a local copy of the engine under hypotheses about the
 opponent's hidden cards. It has two parts: a **follower** that keeps a local engine in step with the server, and a
 **root search** that uses it.
