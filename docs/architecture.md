@@ -11,31 +11,7 @@ the overall picture; the other documents go into each part:
 
 ## Components
 
-```mermaid
-flowchart TB
-  subgraph Engine
-    CORE["ygopro-core fork<br/>(third_party/ygopro-core)"]
-  end
-  subgraph Training
-    ENV["Batched duel environment<br/>mirrorforce/cxx/duelpool"] --> ACT["Actors"]
-    ACT --> LRN["Learner + central critic"]
-    LRN --> ACT
-  end
-  subgraph Serving
-    SVC["Policy service<br/>tools/mf_runtime_policy_service.py"]
-    CLI["Room client<br/>tools/mf_runtime_league_client.py"]
-    CLI <--> SVC
-  end
-  subgraph Search["Play-time search (optional)"]
-    FOL["Follower engine<br/>mirrorforce/common/client_*"]
-    SRCH["Root search<br/>mirrorforce/netduel/agent_search_policy.py"]
-    FOL --> SRCH
-  end
-  CORE --> ENV
-  CORE --> FOL
-  LRN -- "checkpoint" --> SVC
-  SVC --> SRCH
-```
+![MirrorForce architecture: training loop, online play and policy network](architecture.svg)
 
 | Part | Code | Role |
 |---|---|---|
