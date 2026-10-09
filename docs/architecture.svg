@@ -1,21 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 24 960 650" role="img" aria-labelledby="arch-title">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 24 960 650" width="960" height="650" role="img" aria-labelledby="arch-title">
 <title id="arch-title">MirrorForce architecture: training loop, play stack and policy network</title>
-<style>.bg{fill:#0E131A}
-.panel{fill:#151C25;stroke:#2A3441;stroke-width:1}
-.node-teal{fill:#13281F;stroke:#3CC49C;stroke-width:1.5}
-.node-mag{fill:#2A1621;stroke:#E66EA8;stroke-width:1.5}
-.node-org{fill:#2B1D12;stroke:#F09852;stroke-width:1.5}
-.dot-teal{fill:#3CC49C}
-.dot-mag{fill:#E66EA8}
-.dot-org{fill:#F09852}
+<style>.bg{fill:#F4F6F8}
+.panel{fill:#FFFFFF;stroke:#D7DCE3;stroke-width:1}
+.node-teal{fill:#EAF6F1;stroke:#11896A;stroke-width:1.5}
+.node-mag{fill:#F9ECF2;stroke:#AE3F76;stroke-width:1.5}
+.node-org{fill:#FBF0E6;stroke:#C96A22;stroke-width:1.5}
+.dot-teal{fill:#11896A}
+.dot-mag{fill:#AE3F76}
+.dot-org{fill:#C96A22}
 text{font-family:-apple-system, 'Segoe UI', 'Helvetica Neue', Arial, 'Noto Sans', sans-serif}
-.hdr{fill:#E7EBF0;font-size:11.5px;font-weight:700;letter-spacing:.14em}
-.t-title{fill:#E7EBF0;font-size:14px;font-weight:650}
-.t-sub{fill:#9CA6B4;font-size:11px}
-.edge{fill:none;stroke:#6E7988;stroke-width:1.4}
-.edge-dash{fill:none;stroke:#6E7988;stroke-width:1.4;stroke-dasharray:5 4}
-.arrowhead{fill:#6E7988}
-.lbl{fill:#9CA6B4;font-size:11px}</style>
+.hdr{fill:#18202B;font-size:11.5px;font-weight:700;letter-spacing:.14em}
+.t-title{fill:#18202B;font-size:14px;font-weight:650}
+.t-sub{fill:#5A6372;font-size:11px}
+.edge{fill:none;stroke:#8A93A1;stroke-width:1.4}
+.edge-dash{fill:none;stroke:#8A93A1;stroke-width:1.4;stroke-dasharray:5 4}
+.arrowhead{fill:#8A93A1}
+.lbl{fill:#5A6372;font-size:11px}</style>
 <defs><marker id="arw" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
 <path class="arrowhead" d="M0,0 L10,5 L0,10 z"/></marker></defs>
 <rect class="bg" x="0" y="24" width="960" height="650"/>

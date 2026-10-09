@@ -40,10 +40,7 @@ against WinBot, the scripted YGOPro bot (right).
 
 ## Architecture
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="docs/architecture-dark.svg">
-  <img alt="Training loop, online play stack and policy network of MirrorForce" src="docs/architecture-light.svg">
-</picture>
+![MirrorForce architecture: training loop, online play and policy network](docs/architecture.svg)
 
 More in [docs/](docs/): [architecture](docs/architecture.md), [model](docs/model.md),
 [features](docs/features.md), [training](docs/training.md), [search](docs/search.md) and [usage](docs/usage.md).
