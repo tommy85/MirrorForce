@@ -1,7 +1,7 @@
 """Recorded online games replay through the search follower to their end, and a damaged record does not.
 
-The fixtures are the viewer's own received stream and sent answers of two competition games on an EDOPro server
-(``tests/fixtures/follower``): no hidden information, nothing the client did not receive. They cover the server
+The fixtures are the viewer's own received stream and sent answers of two competition games on a YGOPro server
+whose engine build and card scripts differ from ours (``tests/fixtures/follower``): no hidden information, nothing the client did not receive. They cover the server
 differences the follower had to learn: select-message hint strings, a hint only one side sends, the upper bound of
 select-unselect prompts, and a chain prompt offering fewer optional activations than the local engine.
 """

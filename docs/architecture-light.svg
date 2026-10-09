@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 24 960 650" role="img" aria-labelledby="arch-title">
+<title id="arch-title">MirrorForce architecture: training loop, play stack and policy network</title>
+<style>.bg{fill:#F4F6F8}
+.panel{fill:#FFFFFF;stroke:#D7DCE3;stroke-width:1}
+.node-teal{fill:#EAF6F1;stroke:#11896A;stroke-width:1.5}
+.node-mag{fill:#F9ECF2;stroke:#AE3F76;stroke-width:1.5}
+.node-org{fill:#FBF0E6;stroke:#C96A22;stroke-width:1.5}
+.dot-teal{fill:#11896A}
+.dot-mag{fill:#AE3F76}
+.dot-org{fill:#C96A22}
+text{font-family:-apple-system, 'Segoe UI', 'Helvetica Neue', Arial, 'Noto Sans', sans-serif}
+.hdr{fill:#18202B;font-size:11.5px;font-weight:700;letter-spacing:.14em}
+.t-title{fill:#18202B;font-size:14px;font-weight:650}
+.t-sub{fill:#5A6372;font-size:11px}
+.edge{fill:none;stroke:#8A93A1;stroke-width:1.4}
+.edge-dash{fill:none;stroke:#8A93A1;stroke-width:1.4;stroke-dasharray:5 4}
+.arrowhead{fill:#8A93A1}
+.lbl{fill:#5A6372;font-size:11px}</style>
+<defs><marker id="arw" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+<path class="arrowhead" d="M0,0 L10,5 L0,10 z"/></marker></defs>
+<rect class="bg" x="0" y="24" width="960" height="650"/>
+<rect class="panel" x="24" y="48" width="444" height="270" rx="14"/><circle class="dot-teal" cx="48" cy="75" r="5"/><text class="hdr" x="62" y="79">TRAINING</text>
+<rect class="panel" x="492" y="48" width="444" height="270" rx="14"/><circle class="dot-mag" cx="516" cy="75" r="5"/><text class="hdr" x="530" y="79">PLAY</text>
+<rect class="node-teal" x="48" y="104" width="160" height="64" rx="9"/>
+<text class="t-title" x="62" y="126">Duel environment</text>
+<text class="t-sub" x="62" y="143">batched C++ · ygopro-core</text>
+<rect class="node-teal" x="284" y="104" width="160" height="64" rx="9" stroke-dasharray="6 4"/>
+<text class="t-title" x="298" y="126">Scripted scenes</text>
+<text class="t-sub" x="298" y="143">lethal lines, set timing</text>
+<rect class="node-teal" x="48" y="232" width="160" height="64" rx="9"/>
+<text class="t-title" x="62" y="254">Actors</text>
+<text class="t-sub" x="62" y="271">self-play, current policy</text>
+<rect class="node-teal" x="284" y="232" width="160" height="78" rx="9"/>
+<text class="t-title" x="298" y="254">Learner</text>
+<text class="t-sub" x="298" y="271">PPO-clip + magnet KL</text>
+<text class="t-sub" x="298" y="286">critic sees hidden cards</text>
+<path class="edge" d="M106,168 L106,229" marker-end="url(#arw)"/>
+<text class="lbl" x="98" y="204" text-anchor="end">observations</text>
+<path class="edge" d="M150,232 L150,171" marker-end="url(#arw)"/>
+<text class="lbl" x="158" y="204" text-anchor="start">actions</text>
+<path class="edge-dash" d="M364,168 L364,229" marker-end="url(#arw)"/>
+<text class="lbl" x="372" y="204" text-anchor="start">supervised pass</text>
+<path class="edge" d="M208,252 L281,252" marker-end="url(#arw)"/>
+<text class="lbl" x="246" y="245" text-anchor="middle">trajectories</text>
+<path class="edge" d="M284,284 L211,284" marker-end="url(#arw)"/>
+<text class="lbl" x="246" y="302" text-anchor="middle">parameters</text>
+<rect class="node-mag" x="516" y="104" width="160" height="64" rx="9"/>
+<text class="t-title" x="530" y="126">Room server</text>
+<text class="t-sub" x="530" y="143">YGOPro protocol</text>
+<rect class="node-mag" x="752" y="104" width="160" height="64" rx="9" stroke-dasharray="6 4"/>
+<text class="t-title" x="766" y="126">Follower + search</text>
+<text class="t-sub" x="766" y="143">optional local engine</text>
+<rect class="node-mag" x="516" y="232" width="160" height="64" rx="9"/>
+<text class="t-title" x="530" y="254">Room client</text>
+<text class="t-sub" x="530" y="271">sees what a player sees</text>
+<rect class="node-mag" x="752" y="232" width="160" height="64" rx="9"/>
+<text class="t-title" x="766" y="254">Policy service</text>
+<text class="t-sub" x="766" y="271">GPU, batched RPC</text>
+<path class="edge" d="M556,168 L556,229" marker-end="url(#arw)"/>
+<text class="lbl" x="548" y="204" text-anchor="end">messages</text>
+<path class="edge" d="M598,232 L598,171" marker-end="url(#arw)"/>
+<text class="lbl" x="606" y="204" text-anchor="start">answers</text>
+<path class="edge" d="M676,252 L749,252" marker-end="url(#arw)"/>
+<text class="lbl" x="714" y="245" text-anchor="middle">decide</text>
+<path class="edge" d="M752,284 L679,284" marker-end="url(#arw)"/>
+<text class="lbl" x="714" y="302" text-anchor="middle">action</text>
+<path class="edge-dash" d="M660,232 L660,188 L712,188 L712,136 L749,136" marker-end="url(#arw)"/>
+<text class="lbl" x="720" y="204" text-anchor="start">look-ahead</text>
+<path class="edge" d="M364,310 L364,342 L832,342 L832,299" marker-end="url(#arw)"/>
+<text class="lbl" x="600" y="336" text-anchor="middle">checkpoint</text>
+<rect class="panel" x="24" y="366" width="912" height="284" rx="14"/><circle class="dot-org" cx="48" cy="393" r="5"/><text class="hdr" x="62" y="397">POLICY NETWORK</text>
+<path class="edge-dash" d="M748,393 L776,393"/>
+<text class="lbl" x="784" y="397" text-anchor="start">optional or auxiliary</text>
+<rect class="node-org" x="48" y="414" width="200" height="44" rx="9"/>
+<text class="t-title" x="62" y="436">Cards</text>
+<text class="t-sub" x="62" y="453">database fields + Lua script</text>
+<rect class="node-org" x="48" y="472" width="200" height="44" rx="9"/>
+<text class="t-title" x="62" y="494">Turn events</text>
+<text class="t-sub" x="62" y="511">this turn's public events</text>
+<rect class="node-org" x="48" y="530" width="200" height="44" rx="9"/>
+<text class="t-title" x="62" y="552">Earlier turns</text>
+<text class="t-sub" x="62" y="569">one summary token each</text>
+<rect class="node-org" x="48" y="588" width="200" height="44" rx="9"/>
+<text class="t-title" x="62" y="610">Legal actions</text>
+<text class="t-sub" x="62" y="627">one query per action</text>
+<rect class="node-org" x="300" y="410" width="220" height="52" rx="9"/>
+<text class="t-title" x="314" y="432">Set transformer</text>
+<text class="t-sub" x="314" y="449">board · 4 layers · d=384</text>
+<rect class="node-org" x="300" y="497" width="220" height="52" rx="9"/>
+<text class="t-title" x="314" y="519">Causal transformer</text>
+<text class="t-sub" x="314" y="536">events + summaries · 2 layers</text>
+<path class="edge" d="M248,436 L297,436" marker-end="url(#arw)"/>
+<path class="edge" d="M248,494 L297,513" marker-end="url(#arw)"/>
+<path class="edge" d="M248,552 L297,533" marker-end="url(#arw)"/>
+<path class="edge" d="M520,436 L548,436"/>
+<path class="edge" d="M520,523 L548,523"/>
+<path class="edge" d="M548,436 L548,586"/>
+<rect class="node-org" x="576" y="410" width="240" height="48" rx="9"/>
+<text class="t-title" x="590" y="432">Value head</text>
+<text class="t-sub" x="590" y="449">win · draw · loss</text>
+<rect class="node-org" x="576" y="478" width="240" height="48" rx="9" stroke-dasharray="6 4"/>
+<text class="t-title" x="590" y="500">Belief head</text>
+<text class="t-sub" x="590" y="517">opponent's hidden cards</text>
+<rect class="node-org" x="576" y="572" width="240" height="52" rx="9"/>
+<text class="t-title" x="590" y="594">Policy head</text>
+<text class="t-sub" x="590" y="611">action queries attend to cards</text>
+<path class="edge" d="M548,434 L573,434" marker-end="url(#arw)"/>
+<path class="edge" d="M548,502 L573,502" marker-end="url(#arw)"/>
+<path class="edge" d="M548,586 L573,586" marker-end="url(#arw)"/>
+<path class="edge" d="M248,610 L573,610" marker-end="url(#arw)"/>
+<path class="edge" d="M816,434 L846,434" marker-end="url(#arw)"/>
+<text class="lbl" x="852" y="438" text-anchor="start">V</text>
+<path class="edge-dash" d="M816,502 L846,502" marker-end="url(#arw)"/>
+<text class="lbl" x="852" y="506" text-anchor="start">counts</text>
+<path class="edge" d="M816,598 L846,598" marker-end="url(#arw)"/>
+<text class="lbl" x="852" y="602" text-anchor="start">π(a)</text>
+</svg>
