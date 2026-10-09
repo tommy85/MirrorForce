@@ -93,8 +93,20 @@ python -m tools.mf_runtime_policy_service --checkpoint <bundle>/checkpoint/<sha2
 `--script-root` is the directory that contains `script/`. The bundle's `MANIFEST.json` lists every file with its
 SHA-256, and the service checks the card database, code list and tables against the checkpoint's receipt. We
 checked that this code with the bundle gives bit-identical policy and value outputs to the code and files the
-champion played with. Two policy services and two room clients in a YGOPro room play the agent against itself or against another
-checkpoint.
+champion played with.
+
+**Play a local match.** Without a room server, `tools/mf_runtime_local_match.py` plays two policy services against
+each other in an in-process host. Each player is an ordinary room client that sees only its own seat's messages:
+
+```bash
+python -m tools.mf_runtime_local_match --a <socket of service A> --b <socket of service B> \
+    --deck decks/stage-a/SkyStriker.ydk --cards-db <bundle>/cards.cdb --script-root <bundle> \
+    --native <duel_native…so> --games 20 --out <new output directory>
+```
+
+Each deal is played twice, with the first player swapped. `summary.json` gives player A's wins, losses and draws when
+moving first, when moving second and in total. Point `--a` and `--b` at the same service to let the agent play
+itself. In a YGOPro room, two policy services and two room clients do the same.
 
 **Audit the follower.** `tools/mf_runtime_follower_replay_audit.py` replays recorded online games through the follower
 and reports the first difference between the server's messages and the local engine's, if any.
@@ -137,7 +149,7 @@ the root search and when it triggers.
 | `mirrorforce/mirrorforce/cardrules/` | Card rule tables built from the card database and Lua scripts |
 | `mirrorforce/cxx/duelpool/`, `mirrorforce/cxx/mfenv/` | Batched C++ duel environment, its build script and the public-history sources it compiles |
 | `mirrorforce/script-overrides/` | Runtime-equivalent scripts for two cards whose stock scripts enumerate exponentially |
-| `mirrorforce/tools/` | Policy service, room client, card-table builders, follower replay audit |
+| `mirrorforce/tools/` | Policy service, room client, local match, card-table builders, follower replay audit |
 | `mirrorforce/tests/` | Unit and contract tests |
 | `deck/` | The Sky Striker deck the released weights were trained on and played with |
 | `replay/` | Replays of the human best-of-seven at the competition |
