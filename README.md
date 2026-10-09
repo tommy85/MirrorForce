@@ -34,9 +34,10 @@ against WinBot, the scripted YGOPro bot (right).
 - **Targeted scenario training.** Scripted demonstrations of tactical scenes the agent missed (lethal lines,
   clearing the field before attacking, the timing of defensive sets) were mixed into training; see
   [docs/training.md](docs/training.md).
-- **Follower and local search (optional, off by default).** A local engine replays the server's public messages
-  and infers the opponent's choices from their results, so the client can look ahead: it samples hidden cards
-  consistent with the public record and rolls each candidate line forward with the policy and value head.
+- **Follower and local search (library only).** A local engine replays the server's public messages and infers the
+  opponent's choices from their results, so the client can look ahead: it samples hidden cards consistent with the
+  public record and rolls each candidate line forward with the policy and value head. No client in this release plays
+  a game with search yet; see [docs/search.md](docs/search.md).
 
 ## Architecture
 
@@ -54,13 +55,6 @@ git clone --recursive https://github.com/tommy85/MirrorForce.git
 Build the engine and the environment extension, then serve the released weights and join a YGOPro room; the
 commands are in [docs/usage.md](docs/usage.md). Training from scratch or from the released weights is described in
 [docs/training.md](docs/training.md).
-
-## Search switch
-
-The released room client and the local match tool play the plain policy, as in the competition. The search module
-(follower, hidden-card sampling, root search) is released as a library only, selected by registered settings
-(`final_search.settings("on")` for the room clock, `untimed_search.settings()` for evaluation); no client in this
-release plays a game with it yet. See [docs/usage.md](docs/usage.md#search-switch) and [docs/search.md](docs/search.md).
 
 ## TODO and known issues
 

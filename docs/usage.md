@@ -120,7 +120,7 @@ PYTHONPATH=. python -m pytest tests -q -p no:cacheprovider
 Tests that need the compiled extension or card data skip themselves when those are missing; set the environment
 variables above to run them.
 
-## Search switch
+## Search library
 
 The policy service, the league client and the local match tool play the plain greedy policy, as in the
 competition. The search module ships as a library
